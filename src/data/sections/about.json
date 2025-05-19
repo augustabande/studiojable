@@ -1,0 +1,19 @@
+{
+    "subtitle": "Mucho más que una web.",
+    "title": "Una web profesional cambia la forma en que te ven tus clientes.",
+    "description": "Diseño webs profesionales para negocios reales. Mi objetivo es que tengas una presencia online clara, moderna y alineada con lo que ofreces. Y si tienes derecho al Kit Digital, te acompaño en todo el proceso.",
+    "button1": {
+        "label": "Conóceme mejor",
+        "link": "about"
+    },
+    "button2": {
+        "label": "Ver proyectos",
+        "link": "portfolio"
+    },
+    "image": {
+        "front": "img/content/2.jpg",
+        "back": "img/content/1.jpg",
+        "alt": "image",
+        "badgeText": "Quiénes somos - Quiénes somos - Quiénes somos - "
+    }
+}

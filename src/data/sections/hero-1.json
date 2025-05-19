@@ -1,0 +1,49 @@
+{
+    "bg_image": "img/hero/1.jpg",
+    "subtitle": "Hola!",
+    "title": { "before": "Soluciones", "accent": "digitales", "after": "para empresas y autónomos" },
+    "description": "Creo diseño web profesional para tu negocio y páginas web a medida, optimizadas para SEO y adaptadas a dispositivos móviles.",
+    "image": "img/hero/2.jpg",
+    "partners": [
+        {
+            "image": "img/partners/1.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/2.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/3.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/4.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/5.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/6.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/7.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/8.svg",
+            "link": "#.",
+            "alt": "logo"
+        }
+    ]
+}

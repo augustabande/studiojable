@@ -1,0 +1,19 @@
+{
+    "subtitle": "Transforma tu idea en presencia digital",
+    "title": "Diseño web y soluciones digitales  para pymes </br>y profesionales.",
+    "description": "Soy desarrolladora web con más de 15 años de experiencia. Trabajo con pequeñas empresas y profesionales que quieren crecer online con una web clara, moderna y efectiva. No hago plantillas genéricas: diseño soluciones que se adaptan a ti y a tus objetivos.",
+    "image": {
+        "url": "img/content/4.jpg",
+        "alt": "image"
+    },
+    "numbers": [
+        {
+            "label": "Años de experiencia",
+            "value": "15"
+        },
+        {
+            "label": "Proyectos realizados",
+            "value": "150"
+        }
+    ]
+}

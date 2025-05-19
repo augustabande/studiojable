@@ -1,0 +1,115 @@
+{
+    "settings": {
+        "formspreeURL": "https://formspree.io/f/your_api_key",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        }
+    },
+    "header": {
+        "logo": {
+            "text": "studio jable",
+            "accent": "."
+        },
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/",
+                "children": 0
+            },
+            {
+                "label": "Servicios",
+                "link": "#",
+                "children": [
+                   {
+                        "label": "Servicios web",
+                        "link": "/services"
+                    },
+                    {
+                        "label": "Kit digital",
+                        "link": "/kit-digital"
+                    }
+                ]
+            },
+          
+            {
+                "label": "Blog",
+                "link": "/blog",
+                "children": 0
+            },
+             {
+                "label": "About",
+                "link": "/about",
+                "children": 0
+            },
+            {
+                "label": "Contact",
+                "link": "/contact",
+                "children": 0
+            }
+        ]
+    },
+    "footer": {
+        "logo": {
+            "text": "Diseño web claro, <br />",
+            "accent": "funcional y personal"
+        },
+        "description": "Creo páginas web a medida para profesionales y pequeñas empresas. Diseño limpio, contenido claro y enfoque en resultados.",
+        "menu": [
+            {
+                "label": "Homepage",
+                "link": "/"
+            },
+            {
+                "label": "About",
+                "link": "about"
+            },
+            {
+                "label": "Servicios",
+                "link": "services"
+            },
+            {
+                "label": "Contact",
+                "link": "contact"
+            }
+        ],
+        "links": [
+            {
+                "label": "Terms",
+                "link": "#."
+            },
+            {
+                "label": "Privacy Policy",
+                "link": "#."
+            }
+        ],
+        "copy": "© 2025 studiojable. All Rights Reserved.",
+        "dev": "Developed by: <a href=\"https://augustabande.netlify.app\" class=\"mil-hidden-trigger\">Augusta Bande</a>",
+        "bg_image": "/img/hero/1.jpg",
+        "instagram": {
+            "images": [
+                "img/content/instagram-2/1.jpg",
+                "img/content/instagram-2/2.jpg",
+                "img/content/instagram-2/3.jpg",
+                "img/content/instagram-2/4.jpg",
+                "img/content/instagram-2/5.jpg",
+                "img/content/instagram-2/6.jpg"
+            ],
+            "button": {
+                "label": "Our Instagram",
+                "link": "https://instagram.com"
+            }
+        }
+    },
+    "contacts": {
+        "email": "augusta.bande@gmail.com",
+        "tel": "+34 (6) 43 53 5881"
+    },
+    "social": [
+        {
+            "link": "https://instagram.com",
+            "icon": "fab fa-instagram",
+            "title": "Instagram"
+        }
+    ]
+}

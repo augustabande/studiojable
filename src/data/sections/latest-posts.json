@@ -1,0 +1,10 @@
+{
+    "subtitle": "Our news",
+    "title": "Últimos artículos del blog",
+    "description": "Comparto ideas prácticas y consejos para mejorar tu presencia online, aprovechar el kit digital o entender mejor cómo funciona una web profesional.",
+    "button": {
+        "label": "Ver todos los artículos",
+        "link": "/blog"
+    },
+    "numOfItems": 3
+}

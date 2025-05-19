@@ -1,0 +1,13 @@
+{
+    "subtitle": "Servicios",
+    "title": "Soluciones digitales a tu medida",
+    "description": "Diseño y desarrollo páginas web para profesionales, autónomos y pequeñas empresas que quieren tener presencia online de forma clara y efectiva. Me encargo de todo el proceso: estructura, diseño, contenido y soporte. En Studio Jable, combino funcionalidad, estética y estrategia digital para ayudarte a crecer en internet. Trabajo contigo para entender tu negocio y crear una web que funcione de verdad.",
+    "button1": {
+        "label": "More about us",
+        "link": "/about-2"
+    },
+    "button2": {
+        "label": "View portfolio",
+        "link": "/portfolio"
+    }
+}
