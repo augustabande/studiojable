@@ -16,10 +16,10 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 const About = ( props ) => {
   const Content = {
     "about": {
-      "subtitle": "Our story",
-      "title": "Writing content like you've never had before",
-      "text_1": "Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi.",
-      "text_2": "Exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima. Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione. Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi. Consectetur cupiditate vero."
+      "subtitle": "Mi historia",
+      "title": "Desarrollo web con enfoque institucional y soluciones claras para pequeñas empresas",
+      "text_1": "Soy Augusta Bande, desarrolladora freelance especializada en diseño web, accesibilidad y visualización de datos. Con más de 15 años de experiencia, colaboro con instituciones europeas como la Comisión Europea, aportando soluciones digitales claras, funcionales y adaptadas a entornos exigentes.",
+      "text_2": "Desde mi base en Canarias, también trabajo con pequeñas empresas, profesionales y proyectos con impacto local. Diseño sitios web rápidos, bien estructurados y pensados para crecer contigo. Ya sea una landing de servicios, una web subvencionada con Kit Digital o una plataforma más completa, te ayudo a dar forma a tu proyecto digital."
     },
     "gallery": [
       {
@@ -104,7 +104,7 @@ const About = ( props ) => {
       {/* gallery end */}
       
       <CountersSection />
-      <AwardsSection />
+      {/*<AwardsSection />*/}
       <CallToActionSection />
       <LatestPostsSection posts={props.posts} />
       <SubscribeSection />
