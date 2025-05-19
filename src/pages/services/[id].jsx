@@ -45,19 +45,30 @@ const ServiceDetail = ( { postData } ) => {
                         <span>{postData.button.label}</span>
                     </Link>*/}
                     
-                   {postData.buttons?.map((btn, i) => (
-                 
-                      <Link key={`button-${i}`} href={btn.link} legacyBehavior>
-                          
-                        <a
-                          target={btn.target}
-                          rel={btn.target === "_blank" ? "noopener noreferrer" : undefined}
-                          className="mil-button mil-button-lg mil-scale-down-trigger mil-accent-trigger mil-mr-10"
-                        >
-                          <span>{btn.label}</span>
-                        </a>
-                      </Link>
-                    ))}
+                   {Array.isArray(postData.buttons)
+                    ? postData.buttons.map((btn, i) => (
+                        <Link key={`button-${i}`} href={btn.link} legacyBehavior>
+                          <a
+                            target={btn.target}
+                            rel={btn.target === "_blank" ? "noopener noreferrer" : undefined}
+                            className="mil-button mil-button-lg mil-scale-down-trigger mil-accent-trigger mil-mr-10"
+                          >
+                            <span>{btn.label}</span>
+                          </a>
+                        </Link>
+                      ))
+                    : postData.buttons && (
+                        <Link href={postData.buttons.link} legacyBehavior>
+                          <a
+                            target={postData.buttons.target}
+                            rel={postData.buttons.target === "_blank" ? "noopener noreferrer" : undefined}
+                            className="mil-button mil-button-lg mil-scale-down-trigger mil-accent-trigger"
+                          >
+                            <span>{postData.buttons.label}</span>
+                          </a>
+                        </Link>
+                      )}
+
                 </div>
                 <div className="col-lg-6">
                     <div className="mil-accordion">
