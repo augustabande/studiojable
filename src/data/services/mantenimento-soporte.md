@@ -6,40 +6,28 @@ short: "Actualizaciones, cambios de contenido y solución de errores. Cuido tu w
 
 #full details
 fullImage: "/img/content/14.jpg"
-description: "At Lettery, we're committed to providing our clients with the highest level of service and support. Contact us today to learn more about how we can help you achieve your content and social media goals."
+description: "Después de publicar tu sitio web, el trabajo no termina. En Studio Jable te acompaño también en la fase de mantenimiento y soporte, para que tu página esté siempre actualizada, segura y en funcionamiento. Me ocupo de los cambios técnicos, actualizaciones y mejoras continuas para que tú puedas concentrarte en tu negocio."
 
 list: 
-    - label: "Blog writing"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "Actualizaciones de seguridad"
+    value: "<p>Me aseguro de que tu sitio esté siempre protegido con las últimas versiones del CMS, plugins y sistema, minimizando riesgos de seguridad.</p>"
 
-    - label: "Multimedia production"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "Cambios de contenido"
+    value: "<p>¿Necesitas modificar textos, imágenes o añadir una nueva sección? Puedo ayudarte rápidamente con cambios puntuales o recurrentes.</p>"
 
-    - label: "Content editing"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "Resolución de errores"
+    value: "<p>Si algo deja de funcionar correctamente (formularios, enlaces, visualización móvil), lo detecto y lo soluciono sin complicaciones.</p>"
 
-    - label: "Social media content creation"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "Copias de seguridad"
+    value: "<p>Incluyo la configuración y verificación de backups automáticos para que tu contenido esté siempre a salvo.</p>"
 
-    - label: "Email newsletter copywriting"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
-    - label: "Product descriptions"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "Mejoras técnicas"
+    value: "<p>Optimización continua del rendimiento de la web (velocidad de carga, SEO técnico, usabilidad) en base a tus necesidades.</p>"
 
-button:
-    label: "All Services"
-    link: "/services" 
+  - label: "Soporte personalizado"
+    value: "<p>Respondo personalmente a tus dudas, consultas técnicas o ideas para mejorar tu web, sin intermediarios.</p>"
+
+buttons:
+  label: "Todos los servicios"
+  link: "/services"
 ---
-
