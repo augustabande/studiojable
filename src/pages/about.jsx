@@ -6,12 +6,12 @@ import PageBanner from "@/src/components/PageBanner";
 import SubscribeSection from "../components/sections/Subscribe";
 import LatestPostsSection from "../components/sections/LatestPosts";
 import CallToActionSection from "../components/sections/CallToAction";
-import AwardsSection from "../components/sections/Awards";
 import CountersSection from "../components/sections/Counters";
+import TechnologiesSection from "../components/sections/Technologies";
 
 import 'photoswipe/dist/photoswipe.css'
 
-import { Gallery, Item } from 'react-photoswipe-gallery'
+import { Gallery, Item } from 'react-photoswipe-gallery';
 
 const About = ( props ) => {
   const Content = {
@@ -104,10 +104,10 @@ const About = ( props ) => {
       {/* gallery end */}
       
       <CountersSection />
-      {/*<AwardsSection />*/}
+      <TechnologiesSection />
       <CallToActionSection />
-      <LatestPostsSection posts={props.posts} />
-      <SubscribeSection />
+      {/*<LatestPostsSection posts={props.posts} />
+      <SubscribeSection /> */}
     </Layouts>
   );
 };

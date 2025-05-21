@@ -1,77 +1,70 @@
 ---
 #preview
-title: Merch for MIL studio
-image: /img/portfolio/1.jpg
+title: Quality Assessment Platform - QUAP
+image: /img/portfolio/1.webp # Usa il nome del file corretto se lo rinomini o sposti
 imageWidth: 1200
-imageHeight: 1200
+imageHeight: 900
 category:
-    - Content strategy
+    - Frontend Development
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "European Commission – QUAP"
 
     - label: "Date"
-      value: "April 2022"
+      value: "Ongoing"
 
     - label: "Author"
-      value: "Paul Trueman"
+      value: "Augusta Bande"
 
 description0:
     enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        Desarrollo front-end con Angular para la plataforma QUAP, garantizando el cumplimiento normativo de la UE, un tratamiento adecuado de los datos y un diseño responsive. La plataforma da soporte a la evaluación de calidad y la presentación de datos por parte de los Estados miembros. Mi rol incluye el desarrollo de componentes UI modulares y escalables, la integración de servicios de datos con RxJS y el mantenimiento de estándares de accesibilidad y diseño adaptable.
     "
 
-description1:
+gallery:
     enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
-    content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
-    "
-
-
-gallery: 
-    enabled: 1
     items:
-        - image: /img/portfolio/project/2.jpg
-          width: 992
-          height: 1488
-          alt: "image"
+        - image: /img/portfolio/project/quap-ui-1.png
+          width: 1200
+          height: 800
+          alt: "QUAP UI - Panel de datos"
 
-        - image: /img/portfolio/project/3.jpg
-          width: 2420
-          height: 3227
-          alt: "image"
+        - image: /img/portfolio/project/quap-ui-2.png
+          width: 1200
+          height: 800
+          alt: "QUAP UI - Vista responsive"
 
-        - image: /img/portfolio/project/4.jpg
-          width: 992
-          height: 1558
-          alt: "image"
+        - image: /img/portfolio/project/quap-ui-3.png
+          width: 1200
+          height: 800
+          alt: "QUAP UI - Herramientas de envío"
 
     cols: 3
     style: "vertical"
 
 description2:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Tecnologías y rol"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Como desarrolladora front-end, contribuí a construir una interfaz sólida basada en Angular, utilizando RxJS para la gestión asíncrona de datos. Las tecnologías clave incluyen Angular 15+, RxJS, HTML5 y CSS moderno. También implementé funcionalidades de accesibilidad y garantizé la coherencia visual en diferentes dispositivos, respetando las directrices de diseño de la UE.
     "
 
 finalImage:
-    enabled: 1
-    image: "/img/portfolio/project/5.jpg"
+    enabled: 0
+    image: "/img/portfolio/project/quap-cover.jpg"
     width: 1200
-    height: 960    
-    alt: "image"
+    height: 900    
+    alt: "Vista general de la plataforma QUAP"
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Funciones clave"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+        La aplicación ofrece filtros avanzados, validación de datos, gráficos interactivos y autenticación segura mediante EU Login. Diseñada para ser escalable, permite la carga dinámica de conjuntos de datos, paneles adaptables y acceso a contenidos basado en roles para instituciones de la UE y Estados miembros.
     "
+
 
 ---

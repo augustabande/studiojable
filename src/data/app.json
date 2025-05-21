@@ -31,7 +31,11 @@
                     }
                 ]
             },
-          
+            {
+                "label": "Portfolio",
+                "link": "/portfolio",
+                "children": 0
+            },
             {
                 "label": "Blog",
                 "link": "/blog",
@@ -84,7 +88,7 @@
             }
         ],
         "copy": "© 2025 studiojable. All Rights Reserved.",
-        "dev": "Developed by: <a href=\"https://augustabande.netlify.app\" class=\"mil-hidden-trigger\">Augusta Bande</a>",
+        "dev": "Developed by <a href=\"https://augustabande.netlify.app\" class=\"mil-hidden-trigger\">Augusta Bande</a>",
         "bg_image": "/img/hero/1.jpg",
         "instagram": {
             "images": [

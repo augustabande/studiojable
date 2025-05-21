@@ -1,80 +1,61 @@
 ---
 #preview
-title: Pots for vases "Mimosa"
-image: /img/portfolio/2.jpg
+title: Bright Journey
+image: /img/portfolio/2.webp # sostituisci col percorso giusto
 imageWidth: 1200
-imageHeight: 1217
-category: 
-    - SMM
+imageHeight: 900
+category:
+    - Consultancy
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "Bright Journey"
 
     - label: "Date"
-      value: "April 2022"
+      value: "2023"
 
     - label: "Author"
-      value: "Paul Trueman"
+      value: "Augusta Bande"
 
 description0:
-    enabled: 0
-    content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
-    "
-
-description1:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Asesoría y desarrollo web para 'Bright Journey', una página del sector turístico. El objetivo era crear una experiencia centrada en el usuario utilizando WordPress, asegurando un diseño responsive, accesibilidad y optimización SEO. El proyecto se enfocó en una estructura modular, estética limpia y facilidad de gestión de contenidos para usuarios sin conocimientos técnicos.
     "
 
-gallery: 
+gallery:
     enabled: 1
     items:
-        - image: /img/portfolio/project/6.jpg
+        - image: /img/portfolio/brightjourney/bright_journey_hotels_overview.webp
           width: 1200
-          height: 1600
-          alt: "image"
+          height: 825
+          alt: "Diseño web orientado al turismo"
 
-        - image: /img/portfolio/project/7.jpg
+        - image: /img/portfolio/brightjourney/bright_journey_hotels_section.webp
           width: 1200
-          height: 800
-          alt: "image"
+          height: 669
+          alt: "Interfaz amigable en WordPress"
 
-        - image: /img/portfolio/project/9.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
-        - image: /img/portfolio/project/10.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
-    cols: 2 # 2 or 3
-    style: "horizontal" # horizontal or vertical
+    cols: 2
+    style: "horizontal"
 
 description2:
-    enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    enabled: 1
+    heading: "Tecnologías y rol"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        WordPress (tema personalizado y bloques), PHP, HTML, CSS.  
+        Como consultora y desarrolladora web, asesoré al cliente en la elección del hosting, estructura del contenido y diseño, asegurando una web adaptable, optimizada y fácil de actualizar.
     "
 
 finalImage:
-    enabled: 1
-    image: "/img/portfolio/project/11.jpg"
-    width: 1200
-    height: 800
-    alt: "image"
+    enabled: 0
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Características clave"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias. Amet at odit pariatur eum tenetur ratione
+        Diseño adaptable mobile-first, estructura optimizada para SEO con HTML semántico, configuración multilingüe (ES/EN) con WPML, blog y sistema de itinerarios autogestionable, soporte y formación para la gestión autónoma
     "
+
 ---

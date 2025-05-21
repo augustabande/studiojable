@@ -2,48 +2,48 @@
     "bg_image": "img/hero/1.jpg",
     "subtitle": "Hola!",
     "title": { "before": "Soluciones", "accent": "digitales", "after": "para empresas y autónomos" },
-    "description": "Creo diseño web profesional para tu negocio y páginas web a medida, optimizadas para SEO y adaptadas a dispositivos móviles.",
+    "description": "Digital con alma. <br/>Diseño con estrategia.",
     "image": "img/hero/2.jpg",
     "partners": [
         {
-            "image": "img/partners/1.svg",
+            "image": "img/partners/logo_angular.svg",
             "link": "#.",
-            "alt": "logo"
+            "alt": "logo angular"
         },
         {
-            "image": "img/partners/2.svg",
+            "image": "img/partners/logo_aws.svg",
             "link": "#.",
-            "alt": "logo"
+            "alt": "logo aws"
         },
         {
-            "image": "img/partners/3.svg",
+            "image": "img/partners/logo_fincons.svg",
             "link": "#.",
-            "alt": "logo"
+            "alt": "logo fincons"
         },
         {
-            "image": "img/partners/4.svg",
+            "image": "img/partners/logo_kitdigital.svg",
             "link": "#.",
-            "alt": "logo"
+            "alt": "logo kitdigital"
         },
         {
-            "image": "img/partners/5.svg",
+            "image": "img/partners/logo_react.svg",
             "link": "#.",
-            "alt": "logo"
+            "alt": "logo react"
         },
         {
-            "image": "img/partners/6.svg",
+            "image": "img/partners/logo_redes.svg",
             "link": "#.",
-            "alt": "logo"
+            "alt": "logo red.es"
         },
         {
-            "image": "img/partners/7.svg",
+            "image": "img/partners/logo_wordpress.svg",
             "link": "#.",
-            "alt": "logo"
+            "alt": "logo wordpress"
         },
         {
-            "image": "img/partners/8.svg",
+            "image": "img/partners/logo_engineering.svg",
             "link": "#.",
-            "alt": "logo"
+            "alt": "logo engineering"
         }
     ]
 }

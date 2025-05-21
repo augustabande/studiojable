@@ -1,110 +1,83 @@
 {
-    "subtitle": "Prices",
-    "title": "Choose the optimal price plan",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga ratione cum maxime ullam id voluptatibus commodi dolorem at, aut, odio, amet quod molestias possimus. Sunt repudiandae ipsam, consectetur repellendus.",
-    "button": {
-        "label": "Contact us",
-        "link": "/contact"
+  "subtitle": "Precios",
+  "title": "Elige el servicio que mejor se adapta a tu proyecto",
+  "description": "Ofrezco soluciones adaptadas a cada etapa de tu presencia digital: desde el Kit Digital subvencionado hasta la creación de sitios web a medida. Aquí puedes ver mis servicios principales.",
+  "button": {
+    "label": "Contáctame",
+    "link": "/contacto"
+  },
+  "items": [
+    {
+      "name": "Kit Digital",
+      "subname": "Web subvencionada",
+      "price": "0€",
+      "price_after": "",
+      "price_label": "Para autónomos y pymes",
+      "list": [
+        { "active": 1, "value": "Web subvencionada al 100%" },
+        { "active": 1, "value": "Dominio y hosting 12 meses" },
+        { "active": 1, "value": "Diseño responsive y accesible" },
+        { "active": 1, "value": "Autogestionable y con SEO" },
+        { "active": 1, "value": "Cumple con toto los requisitos" }
+      ],
+      "button": {
+        "label": "Solicita tu bono",
+        "link": "/kit-digital"
+      }
     },
-    "items": [
-        {
-            "name": "Free",
-            "subname": "Basic functionality",
-            "price": "$0",
-            "price_after": "/mo",
-            "price_label": "Free forever",
-            "list": [
-                {
-                    "active": 1,
-                    "value": "Dolorum sed doloribus"
-                },
-                {
-                    "active": 1,
-                    "value": "Consectetur adipisicing elit"
-                },
-                {
-                    "active": 0,
-                    "value": "Maxime libero"
-                },
-                {
-                    "active": 0,
-                    "value": "Atque esse odit"
-                },
-                {
-                    "active": 0,
-                    "value": "Laboriosam corporis"
-                }
-            ],
-            "button": {
-                "label": "Choose a plan",
-                "link": "/contact"
-            }
-        },
-        {
-            "name": "Pro",
-            "subname": "More advanced",
-            "price": "$89",
-            "price_after": "/mo",
-            "price_label": "Per month",
-            "list": [
-                {
-                    "active": 1,
-                    "value": "Dolorum sed doloribus"
-                },
-                {
-                    "active": 1,
-                    "value": "Consectetur adipisicing elit"
-                },
-                {
-                    "active": 1,
-                    "value": "Maxime libero"
-                },
-                {
-                    "active": 0,
-                    "value": "Atque esse odit"
-                },
-                {
-                    "active": 0,
-                    "value": "Laboriosam corporis"
-                }
-            ],
-            "button": {
-                "label": "Choose a plan",
-                "link": "/contact"
-            }
-        },
-        {
-            "name": "Enterprise",
-            "subname": "For large business",
-            "price": "$399",
-            "price_after": "/mo",
-            "price_label": "Per month",
-            "list": [
-                {
-                    "active": 1,
-                    "value": "Dolorum sed doloribus"
-                },
-                {
-                    "active": 1,
-                    "value": "Consectetur adipisicing elit"
-                },
-                {
-                    "active": 1,
-                    "value": "Maxime libero"
-                },
-                {
-                    "active": 1,
-                    "value": "Atque esse odit"
-                },
-                {
-                    "active": 1,
-                    "value": "Laboriosam corporis"
-                }
-            ],
-            "button": {
-                "label": "Choose a plan",
-                "link": "/contact"
-            }
+     {
+        "name": "Mantenimiento",
+        "subname": "y soporte continuo",
+        "price": "75€",
+        "price_after": "/mes",
+        "price_label": "Ideal tras publicar tu web",
+        "list": [
+            { "active": 1, "value": "Actualización de sistema" },
+            { "active": 1, "value": "Revisión de seguridad" },
+            { "active": 1, "value": "Soporte para pequeños errores" },
+            { "active": 1, "value": "Modificaciones de contenido" },
+            { "active": 1, "value": "Asistencia técnica personalizada" }
+        ],
+        "button": {
+            "label": "Contratar plan",
+            "link": "/mantenimiento"
         }
-    ]
+    },
+    {
+      "name": "Asesoría digital",
+      "subname": "Diagnóstico y plan estratégico",
+      "price": "250€",
+      "price_after": "",
+      "price_label": "Pago único",
+      "list": [
+        { "active": 1, "value": "Sesión de 60 minutos conmigo" },
+        { "active": 1, "value": "Diagnóstico de presencia online" },
+        { "active": 1, "value": "Plan de acción personalizado" },
+        { "active": 1, "value": "Guía para hacerlo tú mismo" },
+        { "active": 0, "value": "Desarrollo de sitio web" }
+      ],
+      "button": {
+        "label": "Reservar sesión",
+        "link": "/contacto"
+      }
+    },
+    {
+      "name": "Sitio web a medida",
+      "subname": "Diseño profesional personalizado",
+      "price": "+2400 €",
+      "price_after": "",
+      "price_label": "Proyecto a medida",
+      "list": [
+        { "active": 1, "value": "Diseño web profesional" },
+        { "active": 1, "value": "Hasta 5 páginas" },
+        { "active": 1, "value": "Optimización SEO y rendimiento" },
+        { "active": 1, "value": "Responsive y autogestionable" },
+        { "active": 1, "value": "Soporte post-lanzamiento" }
+      ],
+      "button": {
+        "label": "Solicita presupuesto",
+        "link": "/contacto"
+      }
+    }
+  ]
 }

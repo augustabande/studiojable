@@ -1,0 +1,47 @@
+{
+  "title": "Tecnologías que utilizo",
+  "subtitle": "Habilidades y herramientas",
+  "description": "Estas son las tecnologías que utilizo habitualmente para desarrollar soluciones digitales eficientes, accesibles y bien estructuradas.",
+  "items": [
+    {
+      "title": "HTML / HTML5",
+      "level": "100%",
+      "text": "Base sólida en HTML5 para construir sitios estructurados, accesibles y compatibles con todos los navegadores modernos."
+    },
+    {
+      "title": "CSS / CSS3",
+      "level": "100%",
+      "text": "Diseño adaptable, estilos modernos y animaciones con CSS3 y metodologías como BEM y Flexbox/Grid."
+    },
+    {
+      "title": "JavaScript",
+      "level": "90%",
+      "text": "Programación funcional, manipulación del DOM, y desarrollo de interfaces dinámicas y reactivas."
+    },
+    {
+      "title": "ReactJS",
+      "level": "70%",
+      "text": "Creación de interfaces de usuario modulares y reactivas utilizando componentes y hooks."
+    },
+    {
+      "title": "Angular",
+      "level": "90%",
+      "text": "Aplicaciones empresariales bien estructuradas con Angular y su ecosistema completo (RxJS, routing, servicios)."
+    },
+    {
+      "title": "Bootstrap",
+      "level": "95%",
+      "text": "Framework ágil para prototipado rápido y diseño responsivo con componentes listos para producción."
+    },
+    {
+      "title": "Docker",
+      "level": "70%",
+      "text": "Contenedorización de entornos de desarrollo y despliegue eficiente de aplicaciones."
+    },
+    {
+      "title": "WordPress and other CMS",
+      "level": "80%",
+      "text": "Desarrollo de temas personalizados, optimización de rendimiento y gestión de contenido."
+    }
+  ]
+}

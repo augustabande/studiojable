@@ -1,9 +1,9 @@
 {
     "subtitle": "Portfolio",
-    "title": "Our creative works",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing. Perspiciatis ipsum vero optio rerum molestiae, sintory ducimus, rem labore et delectus aspernatur.",
+    "title": "Proyectos seleccionados",
+    "description": "Una selección de trabajos recientes realizados para instituciones, profesionales y pequeñas empresas. Cada proyecto ha sido diseñado con atención al detalle, funcionalidad y objetivos del cliente.",
     "button": {
-        "label": "View all",
+        "label": "Ver todos",
         "link": "/portfolio"
     }
 }

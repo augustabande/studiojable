@@ -82,19 +82,21 @@ hero
             @media screen and (max-width: 992px) {
                 padding-bottom: 80%;
             }
-        }
-
+        }    
         & .mil-infinite-show {
             padding: 60px 0;
-
-
-
+            & .mil-partner-frame {
+                & img {
+                    height: 50px;
+                }
+            }
             @media screen and (max-width: 768px) {
                 padding: 20px 0;
 
                 & .mil-partner-frame {
                     & img {
                         transform: scale(.7);
+                        height: 50px;
                     }
                 }
             }
@@ -629,4 +631,8 @@ project info
     @media screen and (max-width: 992px) {
         flex-direction: column;
     }
+}
+.container-full {
+
+    padding:5%;
 }

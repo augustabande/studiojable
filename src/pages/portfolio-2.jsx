@@ -40,10 +40,11 @@ const PortfolioTwo = (props) => {
   }  
 
   const Content = {
-    "title": "Our recent work",
-    "subtitle": "Portfolio",
-    "description": "Incidunt rerum neque sint omnis est ipsam nam. Esse natus, officiis illo rem beatae, ut iste quis iusto officia laudantium, sapiente veritatis."
-  }
+    title: "Proyectos recientes",
+    subtitle: "Portfolio",
+    description:
+      "Aquí puedes ver una selección de sitios web y soluciones digitales que he desarrollado para instituciones europeas, profesionales y pequeñas empresas. Cada proyecto ha sido diseñado con atención al detalle y adaptado a las necesidades del cliente."
+  };
 
   return (
     <Layouts>

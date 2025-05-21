@@ -1,77 +1,69 @@
 ---
 #preview
-title: Merch for MIL studio
-type: video
-image: https://bslthemes.com/mp4/lettery/3.mp4
+title: Enjoy Trulli
+image: /img/portfolio/3.webp # Usa l'immagine principale (quella nel mockup)
 imageWidth: 1200
-imageHeight: 800
+imageHeight: 900
 category:
-     - Copywrite
+    - Desarrollo Web
 
 #full details
 details:
-    - label: "Client"
-      value: "Envato market"
+    - label: "Cliente"
+      value: "Enjoy Trulli B&B"
 
-    - label: "Date"
-      value: "April 2022"
+    - label: "Fecha"
+      value: "2023"
 
-    - label: "Author"
-      value: "Paul Trueman"
+    - label: "Autor"
+      value: "Augusta Bande"
 
 description0:
     enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        Desarrollo de un sitio web intuitivo para un B&B en el sur de Italia, basado en WordPress e integrado con un sistema de reservas. El objetivo era ofrecer una experiencia visual cálida, accesible desde dispositivos móviles y fácil de gestionar por parte del cliente. Se prestó especial atención a la identidad visual y a la optimización para buscadores (SEO).
     "
 
-description1:
-    enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
-    content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
-    "
-
-
-gallery: 
+gallery:
     enabled: 1
     items:
-        - image: /img/portfolio/project/2.jpg
-          width: 992
-          height: 1488
-          alt: "image"
+        - image: /img/portfolio/enjoytrulli/enjoytrulli_vertical1.webp
+          width: 1200
+          height: 900
+          alt: "Vista principal de la web Enjoy Trulli"
 
-        - image: /img/portfolio/project/3.jpg
-          width: 2420
-          height: 3227
-          alt: "image"
+        - image: /img/portfolio/enjoytrulli/enjoytrulli_vertical2.webp
+          width: 1200
+          height: 900
+          alt: "Diseño responsive para móviles"
 
-        - image: /img/portfolio/project/4.jpg
-          width: 992
-          height: 1558
-          alt: "image"
+        - image: /img/portfolio/enjoytrulli/enjoytrulli_vertical4.webp
+          width: 1200
+          height: 900
+          alt: "Sistema de reservas integrado"
 
     cols: 3
     style: "vertical"
 
 description2:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Tecnologías y rol"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Como desarrolladora full stack, me encargué del diseño, configuración y desarrollo completo del sitio utilizando WordPress, HTML5, CSS3, JavaScript y PHP. El sistema de reservas se integró con plugins personalizados, y se aplicaron buenas prácticas para mejorar la velocidad y el posicionamiento en buscadores.
     "
 
 finalImage:
-    enabled: 1
-    image: "/img/portfolio/project/5.jpg"
+    enabled: 0
+    image: "/img/portfolio/project/enjoy-trulli-final.jpg"
     width: 1200
-    height: 960    
-    alt: "image"
+    height: 900
+    alt: "Diseño exterior del B&B como inspiración del sitio web"
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Características clave"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+        Página web bilingüe con estructura SEO optimizada, diseño limpio y adaptado a la estética del alojamiento, sistema de reservas fácil de usar y totalmente gestionable, integración de formularios de contacto, mapas y testimonios, soporte y formación post-lanzamiento al cliente
     "
+
 ---

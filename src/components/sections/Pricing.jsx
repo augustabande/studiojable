@@ -26,9 +26,11 @@ const PricingSection = () => {
 
                 </div>
             </div>
+        </div>
+        <div className="container-full">
             <div className="row">
                 {Data.items.map((item, key) => (
-                <div className="col-lg-4" key={`pricing-item-${key}`}>
+                <div className="col-lg-3" key={`pricing-item-${key}`}>
                     
                     {/* price card */}
                     <div className="mil-price-card mil-appearance mil-mb-30">
