@@ -184,9 +184,10 @@ const Contact = () => {
       {/* contact end */}
 
       {/* map */}
+     
       <div className="mil-map-frame">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18737.626654165902!2d-79.39321130117438!3d43.64696799680622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d2a33d602f%3A0xb22c1fe911a3636b!2sLCBO!5e0!3m2!1suk!2sua!4v1675692409380!5m2!1suk!2sua" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.2027915859394!2d-13.941364123982089!3d28.683579781759832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc47b54c4f51a197%3A0xc7ff1b23ffdf30af!2sAugusta%20Bande!5e0!3m2!1sit!2ses!4v1748112612867!5m2!1sit!2ses" 
           width={600} 
           height={450} 
           style={{ border: 0 }} 

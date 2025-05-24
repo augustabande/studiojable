@@ -15,7 +15,8 @@ function MyApp({ Component, pageProps }) {
           {/* seo begin */}
           <title>studiojable</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          {/* seo end */}        
+          {/* seo end */}   
+          <script src="https://cmp.osano.com/nHJxswmzcW/f8c8ca9b-f660-486d-9e21-b5eb04f8b0ec/osano.js"></script>     
       </Head>
       <Component {...pageProps} />
     </>

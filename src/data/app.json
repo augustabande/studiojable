@@ -74,12 +74,12 @@
         ],
         "links": [
             {
-                "label": "Terms",
-                "link": "#."
+                "label": "Términos y Condiciones",
+                "link": "terminos."
             },
             {
-                "label": "Privacy Policy",
-                "link": "#."
+                "label": "Política de Privacidad",
+                "link": "privacy-policy."
             }
         ],
         "copy": "© 2025 studiojable. All Rights Reserved.",
