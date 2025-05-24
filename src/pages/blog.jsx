@@ -8,9 +8,9 @@ import Layouts from "@layouts/Layouts";
 import { getPaginatedPostsData } from "../lib/posts";
 
 export const Content = {
-  "subtitle": "Newsletter",
-  "title": "News from the life <br />of our agency.",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga ratione cum maxime ullam id voluptatibus commodi dolorem at, aut, odio, amet quod molestias possimus. Sunt repudiandae ipsam, consectetur repellendus."
+  "subtitle": "Blog y Noticias",
+  "title": "Historias, consejos y novedades sobre diseño web y digitalización",
+  "description": "Desde ideas para mejorar tu web hasta recursos útiles sobre digitalización, ayudas y presencia online. Publicamos artículos claros, prácticos y pensados para pequeñas empresas como la tuya."
 }
 
 const Blog = ( { posts, totalPosts, currentPage } ) => {

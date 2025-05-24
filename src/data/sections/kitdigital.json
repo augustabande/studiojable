@@ -1,0 +1,33 @@
+{
+    "bg_image": "img/content/3.jpg",
+    "items": [
+        {
+            "num": "01",
+            "title": "01",
+            "icon": "img/icons/1.svg",
+            "text": "Entra en la web de Acelera Pyme y realiza el test de diagnóstico digital.",
+            "link": "https://acelerapyme.gob.es/diagnostico-digital"
+        },
+        {
+            "num": "02",
+            "title": "paso 2",
+            "icon": "img/icons/2.svg",
+            "text": "fff",
+            "link": "/services/asesoria-digital"
+        },
+        {
+            "num": "03",
+            "title": "paso 3",
+            "icon": "img/icons/3.svg",
+            "text": "fff",
+            "link": "/services/kit-digital"
+        },
+        {
+            "num": "04",
+            "title": "Mpaso 4",
+            "icon": "img/icons/4.svg",
+            "text": "fff.",
+            "link": "/services/mantenimento-soporte"
+        }
+    ]
+}

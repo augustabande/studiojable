@@ -1,6 +1,6 @@
 {
     "settings": {
-        "formspreeURL": "https://formspree.io/f/your_api_key",
+        "formspreeURL": "https://formspree.io/f/mwpodppr",
         "mailchimp": {
             "url": "",
             "key": ""
@@ -34,11 +34,6 @@
             {
                 "label": "Portfolio",
                 "link": "/portfolio",
-                "children": 0
-            },
-            {
-                "label": "Blog",
-                "link": "/blog",
                 "children": 0
             },
              {

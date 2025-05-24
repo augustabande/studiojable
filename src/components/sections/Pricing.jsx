@@ -59,10 +59,30 @@ const PricingSection = () => {
                                 </li>
                             ))}
                         </ul>
-
-                        <Link href={item.button.link} className="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space">
+                        
+                        {item.button.link.startsWith('/') ? (
+                            
+                            <Link
+                                href={item.button.link}
+                                className="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"
+                            >
+                                <span>{item.button.label}</span>
+                            </Link>
+                        ) : (
+                            
+                            <a
+                                href={item.button.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"
+                            >
+                                <span>{item.button.label}</span>
+                            </a>
+                            )
+                        }
+                        {/*<Link href={item.button.link} className="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space">
                             <span>{item.button.label}</span>
-                        </Link>
+                        </Link>*/}
                     </div>
                     {/* price card end */}
 

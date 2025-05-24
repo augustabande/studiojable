@@ -6,18 +6,18 @@ import appData from "@data/app.json";
 const Contact = () => {
 
   const Content = {
-    "subtitle": "Contact",
-    "title": "Get in touch",
+    "subtitle": "Contacto",
+    "title": "Ponte en contacto",
     "info": [
       {
         "icon": "img/icons/4.svg",
-        "label": "Support email",
-        "value": "mil.design.inbox@mail.com"
+        "label": "Correo de soporte",
+        "value": "hello@studiojable.com"
       },
       {
         "icon": "img/icons/7.svg",
-        "label": "Call 24/7",
-        "value": "+49 (055) 742 78 84"
+        "label": "Llama",
+        "value": "+34 (6) 43 53 5881"
       }
     ]
   }
@@ -87,19 +87,19 @@ const Contact = () => {
                     }
                 }).then(response => {
                     if (response.ok) {
-                        status.innerHTML = "Thanks for your submission!";
+                        status.innerHTML = "¡Gracias por tu mensaje!";
                         form.reset()
                     } else {
                         response.json().then(data => {
                             if (Object.hasOwn(data, 'errors')) {
                                 status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
                             } else {
-                                status.innerHTML = "Oops! There was a problem submitting your form"
+                                status.innerHTML = "¡Ups! Hubo un problema al enviar tu formulario."
                             }
                         })
                     }
                 }).catch(error => {
-                    status.innerHTML = "Oops! There was a problem submitting your form"
+                    status.innerHTML = "¡Ups! Hubo un problema al enviar tu formulario."
                 });
 
                 setSubmitting(false);
@@ -129,7 +129,7 @@ const Contact = () => {
                             onBlur={handleBlur}
                             value={values.name}
                           />
-                          <label className="mil-link">Name</label>
+                          <label className="mil-link">Nombre</label>
                           <span></span>
                           <em>{errors.name && touched.name && errors.name}</em>
                       </div>
@@ -162,17 +162,17 @@ const Contact = () => {
                             onBlur={handleBlur}
                             value={values.message}
                           />
-                          <label className="mil-link">Message</label>
+                          <label className="mil-link">Mensaje</label>
                           <span></span>
                           <em>{errors.message && touched.message && errors.message}</em>
                       </div>
                   </div>
                   <div className="col-lg-6">
-                      <p className="mil-text-sm mil-mb-30">*We promise not to disclose your personal information to third parties.</p>
+                      <p className="mil-text-sm mil-mb-30">*Prometemos no divulgar tu información personal a terceros.</p>
                   </div>
                   <div className="col-lg-6">
                       <button type="submit" className="mil-float-right mil-button mil-button-lg mil-scale-down-trigger mil-dark-trigger mil-mb-30" disabled={isSubmitting}>
-                        <span>Send message</span>
+                        <span>Enviar mensaje</span>
                       </button>
                   </div>
                   <div className="form-status" id="contactFormStatus" />
@@ -193,6 +193,7 @@ const Contact = () => {
           allowFullScreen
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade" 
+          title="Mapa de ubicación de Studio Jable"
         />
       </div>
       {/* map end */}

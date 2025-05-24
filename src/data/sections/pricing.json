@@ -40,7 +40,7 @@
         ],
         "button": {
             "label": "Contratar plan",
-            "link": "/mantenimiento"
+            "link": "mailto:hello@studiojable.com"
         }
     },
     {
@@ -58,7 +58,7 @@
       ],
       "button": {
         "label": "Reservar sesión",
-        "link": "/contacto"
+        "link": "https://tidycal.com/augustabande/60-minute-meeting"
       }
     },
     {
@@ -76,7 +76,7 @@
       ],
       "button": {
         "label": "Solicita presupuesto",
-        "link": "/contacto"
+        "link": "mailto:hello@studiojable.com"
       }
     }
   ]

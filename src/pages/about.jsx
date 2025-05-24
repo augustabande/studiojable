@@ -9,6 +9,8 @@ import CallToActionSection from "../components/sections/CallToAction";
 import CountersSection from "../components/sections/Counters";
 import TechnologiesSection from "../components/sections/Technologies";
 
+import Link from "next/link";
+
 import 'photoswipe/dist/photoswipe.css'
 
 import { Gallery, Item } from 'react-photoswipe-gallery';
@@ -24,30 +26,25 @@ const About = ( props ) => {
     "gallery": [
       {
         "url": "img/content/12.jpg",
-        "width": 1000,
-        "height": 1573
+        "width": 640,
+        "height": 640
       },
       {
         "url": "img/content/13.jpg",
-        "width": 1000,
-        "height": 1065
+        "width": 1134,
+        "height": 2016
       },
       {
         "url": "img/content/14.jpg",
-        "width": 1000,
-        "height": 1499
-      },
-      {
-        "url": "img/content/15.jpg",
-        "width": 1000,
-        "height": 792
+        "width": 1134,
+        "height": 2016
       }
     ]
   }
 
   return (
     <Layouts>
-      <PageBanner pageImage={"img/content/4.jpg"} pageTitle={"About"} />
+      <PageBanner pageImage={"img/content/2.jpg"} pageTitle={"About"} />
       
       {/* about */}
       <div className="container mil-content-frame mil-appearance mil-p-120-90">
@@ -99,11 +96,27 @@ const About = ( props ) => {
               </div>
               ))}
             </Gallery>
+            {/* buttons */}
+              <div className="mil-appearance">
+                   <a
+                    href="/cv.pdf"
+                    download
+                    className="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"
+                  >
+                    <span>Descarga mi CV</span>
+                  </a>
+                  
+                  <Link href="https://www.linkedin.com/in/augustabande/" target="_blank" className="mil-link-hover">
+                   Mi perfil de LinkedIn
+                  </Link>
+              </div>
+            {/* buttons end */}
           </div>
       </div>
+      
       {/* gallery end */}
       
-      <CountersSection />
+       {/*<CountersSection />*/}
       <TechnologiesSection />
       <CallToActionSection />
       {/*<LatestPostsSection posts={props.posts} />

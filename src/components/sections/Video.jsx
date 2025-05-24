@@ -10,7 +10,7 @@ const VideoSection = () => {
         <>
             <a data-fancybox data-no-swup onClick={() => setOpen(true)} className="mil-video-section mil-word-1-trigger mil-accent-trigger" style={{ "cursor" : "pointer" }}>
                 <div className="mil-image-frame">
-                    <video className="mil-video-background mil-scale-img" data-value-1="1" data-value-2="1.1" autoPlay="autoplay" loop="loop" muted="true" playsInline="true" onContextMenu={() => false} preload="auto">
+                    <video className="mil-video-background mil-scale-img" data-value-1="1" data-value-2="1.1" autoPlay="autoplay" loop="loop" muted={true} playsInline="true" onContextMenu={() => false} preload="auto">
                         <source src={Data.video_file} />
                     </video>
                 </div>
