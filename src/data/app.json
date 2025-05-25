@@ -68,18 +68,22 @@
                 "link": "services"
             },
             {
-                "label": "Contact",
+                "label": "Contacto",
                 "link": "contact"
             }
         ],
         "links": [
             {
                 "label": "Términos y Condiciones",
-                "link": "terminos."
+                "link": "terminos-y-condiciones"
             },
             {
                 "label": "Política de Privacidad",
-                "link": "privacy-policy."
+                "link": "privacy-policy"
+            },
+            {
+                "label": "Política de Cookies",
+                "link": "cookie-policy"
             }
         ],
         "copy": "© 2025 studiojable. All Rights Reserved.",
@@ -106,9 +110,10 @@
     },
     "social": [
         {
-            "link": "https://instagram.com",
-            "icon": "fab fa-instagram",
-            "title": "Instagram"
+            "label": "LinkedIn",
+            "link": "https://www.linkedin.com/in/augustabande/",
+            "icon": "fab fa-linkedin-in"
+            
         }
     ]
 }

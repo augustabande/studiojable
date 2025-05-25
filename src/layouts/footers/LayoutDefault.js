@@ -40,7 +40,7 @@ const DefaultFooter = ( { bg, instagram, extraClass } ) => {
                                 {/* menu list end */}
                             </div>
                             <div className="col-lg-4 col-xl-3 mil-mb-30">
-                                <h6 className="mil-light mil-mb-30">Useful links</h6>
+                                <h6 className="mil-light mil-mb-30">Links</h6>
                                 {/* useful links list */}
                                 <ul>
                                     {appData.footer.links.map((item, key) => (
