@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import PageBanner from "@components/PageBanner";
 import CallToActionSection from "@components/sections/CallToAction";
 import CountersSection from "@components/sections/Counters";
+import { accordion } from "../common/utilits";
 
 import 'photoswipe/dist/photoswipe.css'
 
@@ -19,7 +20,64 @@ import Link from "next/link";
 const Kitdigital = ( props ) => {
   useEffect(() => {
     cursorSwiperAnimation();
+     accordion();
   }, []);
+
+  const postData = {
+  title: "Soluciones Kit Digital",
+  description: "Como Agente Digitalizador autorizado, Jable Studio ofrece soluciones subvencionadas por el programa Kit Digital para impulsar la transformación digital de pymes y autónomos.",
+  buttons: {
+    label: "SOLICITA TU BONO",
+    link: "https://www.acelerapyme.gob.es/kit-digital",
+    target: "_blank"
+  },
+  list: [
+  {
+    label: "Sitio web y presencia basica en internet",
+    description: "Diseño y desarrollo de páginas web adaptadas a móviles, optimizadas para SEO y con alojamiento incluido.",
+    amount: "Hasta 2.000€",
+    segments: "Exclusiva para los segmentos I, II y III"
+  },
+  {
+    label: "Comercio electrónico",
+    description: "Creación de tiendas online con pasarelas de pago, gestión de productos y optimización del proceso de compra.",
+    amount: "Hasta 5.000€",
+    segments: "-"
+  },
+  {
+    label: "Gestión de redes sociales",
+    description: "Planificación estratégica, generación de contenido y gestión de campañas en redes sociales.",
+    amount: "Hasta 5.000€",
+    segments: "-"
+  },
+  {
+    label: "Business Intelligence y analítica",
+    description: "Desarrollo de dashboards y análisis de datos para facilitar la toma de decisiones estratégicas en tu negocio.",
+    amount: "Hasta 8.000€",
+    segments: "-"
+  },
+  {
+    label: "Ciberseguridad",
+    description: "Soluciones para proteger tus sistemas: antivirus, antimalware, cortafuegos y formación en ciberseguridad.",
+    amount: "Hasta 29.000€",
+    segments: "Segmentos I, II y III"
+  },
+  {
+    label: "Presencia avanzada en internet",
+    description: "SEO avanzado, analítica web, posicionamiento estratégico y mejora de rendimiento.",
+    amount: "Hasta 5.000€",
+    segments: "Excluida de la primera convocatoria"
+  },
+  {
+    label: "Marketplace",
+    description: "Creación de portales multiproducto o multivendedor para la venta online en marketplaces.",
+    amount: "Hasta 2.000€",
+    segments: "Exclusiva para los segmentos I, II y III"
+  }
+]
+
+};
+
 
  const Content = {
     "about1": {
@@ -221,35 +279,81 @@ const Kitdigital = ( props ) => {
       </div>
       
       <div className="container mil-content-frame mil-p-60-60">
-  <h3 className="mil-appearance mil-mb-30">Soluciones disponibles por segmento</h3>
-  <div className="table-responsive">
-    <table className="table table-bordered table-striped">
-      <thead>
-        <tr>
-          <th>Nombre</th>
-          <th>Segmentos</th>
-          <th>Categoría</th>
-          <th>Descripción</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Sitio Web Profesional</td>
-          <td>I, II, III</td>
-          <td>Presencia en internet</td>
-          <td>Desarrollo web personalizado, responsive y optimizado para SEO.</td>
-        </tr>
-        <tr>
-          <td>E-commerce Básico</td>
-          <td>I, II</td>
-          <td>Comercio electrónico</td>
-          <td>Diseño y desarrollo de tienda online con carrito y pasarela de pago.</td>
-        </tr>
-        {/* Aggiungi altre righe qui */}
-      </tbody>
-    </table>
-  </div>
-</div>
+        <div className="row justify-content-between">
+            <div className="container mil-content-frame mil-appearance mil-p-120-120">
+
+            <div className="row justify-content-between">
+                <div className="col-lg-4 mil-mb-120">
+                    <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">Kit Digital • Servicios subvencionados</span>
+                    <h3 className="mil-appearance mil-mb-30">Soluciones digitales con el Kit Digital</h3>
+
+                    <p className="mil-appearance mil-mb-30">Si eres autónomo, profesional o pequeña empresa y quieres digitalizar tu negocio con ayuda del Kit Digital, estás en el lugar adecuado.
+  En Studio Jable te ofrecemos soluciones completas, personalizadas y subvencionadas: desde páginas web y tiendas online hasta herramientas de gestión y automatización de procesos.
+  Nos encargamos de todo: diagnóstico, solicitud del bono, ejecución técnica y soporte posterior. Así tú puedes centrarte en lo que mejor sabes hacer.</p>
+
+                    {/*<Link href={postData.button.link} className="mil-button mil-button-lg mil-scale-down-trigger mil-accent-trigger">
+                        <span>{postData.button.label}</span>
+                    </Link>*/}
+                    
+                   {Array.isArray(postData.buttons)
+                    ? postData.buttons.map((btn, i) => (
+                        <Link key={`button-${i}`} href={btn.link} legacyBehavior>
+                          <a
+                            target={btn.target}
+                            rel={btn.target === "_blank" ? "noopener noreferrer" : undefined}
+                            className="mil-button mil-button-lg mil-scale-down-trigger mil-accent-trigger mil-mr-10"
+                          >
+                            <span>{btn.label}</span>
+                          </a>
+                        </Link>
+                      ))
+                    : postData.buttons && (
+                        <Link href={postData.buttons.link} legacyBehavior>
+                          <a
+                            target={postData.buttons.target}
+                            rel={postData.buttons.target === "_blank" ? "noopener noreferrer" : undefined}
+                            className="mil-button mil-button-lg mil-scale-down-trigger mil-accent-trigger"
+                          >
+                            <span>{postData.buttons.label}</span>
+                          </a>
+                        </Link>
+                      )}
+
+                </div>
+                <div className="col-lg-6">
+                    <div className="mil-accordion">
+                        
+                        {postData.list.map((item, key) => (
+
+                        <div className="mil-accordion-group mil-appearance" key={`service-list-${key}`}>
+                          <div className="mil-accordion-menu">
+                            <h6>{item.label}</h6>
+                            <div className="mil-accordion-plus">+</div>
+                            <div className="mil-accordion-minus">-</div>
+                          </div>
+                          <div className="mil-accordion-content-kitdigital">
+                            <p>{item.description}</p>
+
+                             
+                              <ul>
+                                <li><strong>Importe máximo:</strong> {item.amount}</li>
+                                <li><strong>Segmentos:</strong> {item.segments}</li>
+                              </ul>
+                            
+                            
+                          </div>
+                        </div>
+
+                        ))}
+
+                    </div>
+                </div>
+            </div>
+      </div>
+      {/* service end */}
+            
+        </div>        
+      </div>
 
       {/* about */}
       <div className="container mil-content-frame mil-appearance mil-p-0-90">

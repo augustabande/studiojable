@@ -708,6 +708,7 @@ accordion
     overflow: hidden;
 }
 
+
 .mil-mil-accordion-content.expanded {
     height: 0;
     overflow: hidden;
@@ -751,6 +752,18 @@ accordion
 
     & p {
         padding: 20px 0 30px;
+    }
+}
+
+.mil-accordion-content-kitdigital {
+     height: 0;
+    overflow: hidden;
+
+    & p {
+        padding: 5px 10px 5px;
+    }
+    & ul {
+        padding: 0 10px 5px;
     }
 }
 
