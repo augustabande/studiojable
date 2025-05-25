@@ -25,17 +25,17 @@ const About = ( props ) => {
     },
     "gallery": [
       {
-        "url": "img/content/12.jpg",
+        "url": "img/content/augusta-bande-consultora-informatica-canarias.webp",
         "width": 640,
         "height": 640
       },
       {
-        "url": "img/content/13.jpg",
+        "url": "img/content/presencia-online-sitio-responsive-canarias.webp",
         "width": 1134,
         "height": 2016
       },
       {
-        "url": "img/content/14.jpg",
+        "url": "img/content/soluciones-digitales-empresas-canarias.webp",
         "width": 1134,
         "height": 2016
       }

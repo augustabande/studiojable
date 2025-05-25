@@ -220,7 +220,36 @@ const Kitdigital = ( props ) => {
         
       </div>
       
-      
+      <div className="container mil-content-frame mil-p-60-60">
+  <h3 className="mil-appearance mil-mb-30">Soluciones disponibles por segmento</h3>
+  <div className="table-responsive">
+    <table className="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Segmentos</th>
+          <th>Categoría</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sitio Web Profesional</td>
+          <td>I, II, III</td>
+          <td>Presencia en internet</td>
+          <td>Desarrollo web personalizado, responsive y optimizado para SEO.</td>
+        </tr>
+        <tr>
+          <td>E-commerce Básico</td>
+          <td>I, II</td>
+          <td>Comercio electrónico</td>
+          <td>Diseño y desarrollo de tienda online con carrito y pasarela de pago.</td>
+        </tr>
+        {/* Aggiungi altre righe qui */}
+      </tbody>
+    </table>
+  </div>
+</div>
 
       {/* about */}
       <div className="container mil-content-frame mil-appearance mil-p-0-90">

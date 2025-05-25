@@ -1,9 +1,9 @@
 {
-    "bg_image": "img/hero/1.jpg",
+    "bg_image": "img/hero/desarrollo-web-fuerteventura-consultor.jpg",
     "subtitle": "Hola!",
     "title": { "before": "Soluciones", "accent": "digitales", "after": "para empresas y autónomos" },
     "description": "Digital con alma. <br/>Diseño con estrategia.",
-    "image": "img/hero/2.jpg",
+    "image": "img/hero/2.webp",
     "partners": [
         {
             "image": "img/partners/logo_angular.svg",
