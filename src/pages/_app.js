@@ -18,7 +18,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Agencia digital en Fuerteventura especializada en desarrollo web, soluciones digitales personalizadas y consultoría informática para empresas y autónomos. Estamos en Lajares." />
         <meta name="keywords" content="desarrollo web Fuerteventura, desarrollo web Lajares, consultoría informática Canarias, soluciones digitales Fuerteventura, agencia web Lajares, diseñador web fuerteventura, páginas web canarias, experto wordpress fuerteventura, servicios digitales pymes" />
         {/* seo end */}   
-          <script src="https://cmp.osano.com/nHJxswmzcW/f8c8ca9b-f660-486d-9e21-b5eb04f8b0ec/osano.js"></script>     
+          	
+	      <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/e1734ea95b2432fcaa34569d/script.js"></script>
+
       </Head>
       <Component {...pageProps} />
     </>
