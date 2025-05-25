@@ -12,10 +12,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-          {/* seo begin */}
-          <title>studiojable</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          {/* seo end */}   
+         {/* seo begin */}
+        <title>Jable Studio | Desarrollo web en Fuerteventura y consultoría digital informática</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Agencia digital en Fuerteventura especializada en desarrollo web, soluciones digitales personalizadas y consultoría informática para empresas y autónomos. Estamos en Lajares." />
+        <meta name="keywords" content="desarrollo web Fuerteventura, desarrollo web Lajares, consultoría informática Canarias, soluciones digitales Fuerteventura, agencia web Lajares, diseñador web fuerteventura, páginas web canarias, experto wordpress fuerteventura, servicios digitales pymes" />
+        {/* seo end */}   
           <script src="https://cmp.osano.com/nHJxswmzcW/f8c8ca9b-f660-486d-9e21-b5eb04f8b0ec/osano.js"></script>     
       </Head>
       <Component {...pageProps} />

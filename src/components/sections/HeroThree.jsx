@@ -14,8 +14,8 @@ const HeroThree = () => {
                             <div className="mil-hero-text">
 
                                 <div className="mil-hero-avatar mil-mb-20">
-                                    <img src={Data.avatar.image} alt={Data.avatar.name} />
-                                    <h6>{Data.avatar.name}</h6>
+                                    <img src={Data.avatar?.image} alt={Data.avatar?.name} />
+                                    <h6>{Data.avatar?.name}</h6>
                                 </div>
 
                                 <h1 className="mil-h2 mil-mb-30">{Data.title}</h1>
