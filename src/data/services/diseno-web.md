@@ -1,31 +1,34 @@
 ---
 #preview details
 image: "/img/icons/2.svg"
-title: "Diseño web"
-short: "Sitios web modernos y adaptados a cualquier dispositivo. Desde una landing hasta una web completa."
+title: "Diseño web y soluciones digitales"
+short: "Sitios web modernos y adaptados a cualquier dispositivo. Desde una landing hasta una web completa, con tienda online y visibilidad avanzada."
 
 #full details
 fullImage: "/img/content/11.jpg"
-description: "En Studio Jable diseño sitios web modernos para autónomos, profesionales y pequeñas empresas. Combinamos diseño, estructura, contenido y soporte continuo para que tu presencia online funcione de verdad."
+description: "En Studio Jable diseño sitios web modernos para autónomos, profesionales y pequeñas empresas. Combinamos diseño, estructura, contenido y soporte continuo para que tu presencia online funcione de verdad. Además, desarrollamos tiendas online y estrategias digitales completas para ayudarte a crecer."
 
 list: 
-  - label: "Estructura clara y contenido estratégico"
-    value: "<p>Organizamos tu sitio con una arquitectura intuitiva y contenido que conecta con tus clientes. Te ayudamos a explicar quién eres, qué haces y cómo pueden contactarte.</> "
+  - label: "Sitio Web y presencia básica en Internet"
+    value: "<p>Diseño de una web clara, moderna, responsive y accesible. Incluye estructura intuitiva, contenido estratégico, formulario de contacto, mapa, enlaces a redes sociales y SEO básico.</p>"
+
+  - label: "Presencia avanzada en Internet"
+    value: "<p>Integración de blog profesional, conexión con Google Analytics y Search Console, generación de contenido optimizado y asesoramiento para mejorar tu posicionamiento y visibilidad en internet.</p>"
 
   - label: "Diseño adaptable a móvil y escritorio"
-    value: "<p>Todos nuestros sitios son totalmente responsivos: se ven perfectos tanto en móvil como en ordenador. Pensamos siempre en la experiencia del usuario.</p>"
-
-  - label: "Optimización SEO básica"
-    value: "<p>Implementamos buenas prácticas para que Google entienda tu sitio desde el primer día. URLs limpias, títulos correctos y velocidad optimizada.</p>"
+    value: "<p>Todas nuestras webs son 100% responsivas. Se adaptan perfectamente a móviles, tablets y ordenadores para ofrecer la mejor experiencia al usuario.</p>"
 
   - label: "Carga rápida y mantenimiento ligero"
-    value: "<p>Evito plantillas pesadas o innecesarias. Desarrollamos webs eficientes, que cargan rápido y son fáciles de mantener.</p>"
+    value: "<p>Desarrollamos sitios rápidos, sin plantillas pesadas, fáciles de mantener y preparados para crecer con tu negocio.</p>"
+
+  - label: "Optimización SEO básica"
+    value: "<p>URLs limpias, títulos bien estructurados, etiquetas adecuadas y buenas prácticas de rendimiento para que Google entienda tu web desde el primer momento.</p>"
+
+  - label: "Contenido claro y eficaz"
+    value: "<p>Te ayudamos a estructurar el contenido para comunicar de forma efectiva quién eres, qué haces y cómo pueden contactarte tus clientes.</p>"
 
   - label: "Acompañamiento y soporte técnico"
-    value: "<p>No te dejo solo/a tras la entrega. Ofrezco soporte técnico puntual, actualizaciones y asesoría digital a medida.</p>"
-
-  - label: "Formularios y funcionalidades útiles"
-    value: "<p>Incluyo formularios de contacto, enlaces a redes, mapas, enlaces rápidos o cualquier módulo útil para tu actividad.</p>"
+    value: "<p>Te acompañamos más allá de la entrega con soporte puntual, asesoría y formación para que gestiones tu web de forma profesional.</p>"
 
 buttons:
   label: "Ver todos los servicios"
