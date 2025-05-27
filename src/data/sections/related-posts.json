@@ -1,9 +1,9 @@
 {
-    "subtitle": "Related posts",
-    "title": "You May Also Like",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing. Perspiciatis ipsum vero optio rerum molestiae, sintory ducimus, rem labore et delectus aspernatur.",
+    "subtitle": "Artículos relacionados",
+    "title": "También te puede interesar",
+    "description": "Descubre otros artículos sobre digitalización, diseño web y estrategias online para mejorar la presencia digital de tu negocio.",
     "button": {
-        "label": "View all",
+        "label": "Ver todos",
         "link": "/blog"
     },
     "numOfItems": 3

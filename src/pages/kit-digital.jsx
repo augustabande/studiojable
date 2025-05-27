@@ -5,8 +5,6 @@ import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import PageBanner from "@components/PageBanner";
-import CallToActionSection from "@components/sections/CallToAction";
-import CountersSection from "@components/sections/Counters";
 import { accordion } from "../common/utilits";
 
 import 'photoswipe/dist/photoswipe.css'
@@ -128,28 +126,28 @@ const Kitdigital = ( props ) => {
       {
         num: "01",
         title: "Regístrate en Acelera Pyme",
-        icon: "/img/icons/1.svg",
+        icon: "/img/kit-digital/1.svg",
         text: "Regístrate en acelerapyme.es y completa el test de autodiagnóstico.",
         link: "https://www.acelerapyme.gob.es/quieres-conocer-el-grado-de-digitalizacion-de-tu-pyme"
       },
       {
         num: "02",
         title: "Selecciona tu solución",
-        icon: "img/icons/2.svg",
+        icon: "/img/kit-digital/2.svg",
         text: "Elige las diferentes soluciones de digitalización dentro del catálogo existente en el Programa Kit Digital.",
-        link: "/services/diseno-web"
+        link: "/services/kit-digital"
       },
       {
         num: "03",
         title: "Solicita el bono digital",
-        icon: "img/icons/3.svg",
+        icon: "/img/kit-digital/3.svg",
         text: "Obtén tu bono digital y canjéalo a través de un Agente Digitalizador como Studio Jable.",
-        link: "/contacto"
+        link: "https://www.acelerapyme.gob.es/kit-digital/solicitud-bono-digital"
       },
       {
         num: "04",
         title: "Creamos tu solución digital",
-        icon: "img/icons/4.svg",
+        icon: "/img/kit-digital/4.svg",
         text: "Nos encargamos de implementar la solución y de todo el proceso de justificación del bono.",
         link: "/services/kit-digital"
       }

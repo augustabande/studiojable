@@ -10,12 +10,12 @@ const Contact = () => {
     "title": "Ponte en contacto",
     "info": [
       {
-        "icon": "img/icons/4.svg",
+        "icon": "/img/icons/4.svg",
         "label": "Correo de soporte",
         "value": "hello@studiojable.com"
       },
       {
-        "icon": "img/icons/7.svg",
+        "icon": "/img/icons/7.svg",
         "label": "Llama",
         "value": "+34 (6) 43 53 5881"
       }

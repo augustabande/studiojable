@@ -1,5 +1,5 @@
 {
-    "bg_image": "img/content/3.jpg",
+    "bg_image": "/img/content/3.jpg",
     "items": [
         {
             "num": "01",
@@ -11,7 +11,7 @@
         {
             "num": "02",
             "title": "paso 2",
-            "icon": "img/icons/2.svg",
+            "icon": "img/icons/2.svg", 
             "text": "fff",
             "link": "/services/asesoria-digital"
         },
@@ -24,7 +24,7 @@
         },
         {
             "num": "04",
-            "title": "Mpaso 4",
+            "title": "paso 4",
             "icon": "img/icons/4.svg",
             "text": "fff.",
             "link": "/services/mantenimento-soporte"
