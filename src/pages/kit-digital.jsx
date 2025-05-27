@@ -30,49 +30,31 @@ const Kitdigital = ( props ) => {
     target: "_blank"
   },
   list: [
-  {
-    label: "Sitio web y presencia basica en internet",
-    description: "Diseño y desarrollo de páginas web adaptadas a móviles, optimizadas para SEO y con alojamiento incluido.",
-    amount: "Hasta 2.000€",
-    segments: "Exclusiva para los segmentos I, II y III"
-  },
-  {
-    label: "Comercio electrónico",
-    description: "Creación de tiendas online con pasarelas de pago, gestión de productos y optimización del proceso de compra.",
-    amount: "Hasta 5.000€",
-    segments: "-"
-  },
-  {
-    label: "Gestión de redes sociales",
-    description: "Planificación estratégica, generación de contenido y gestión de campañas en redes sociales.",
-    amount: "Hasta 5.000€",
-    segments: "-"
-  },
-  {
-    label: "Business Intelligence y analítica",
-    description: "Desarrollo de dashboards y análisis de datos para facilitar la toma de decisiones estratégicas en tu negocio.",
-    amount: "Hasta 8.000€",
-    segments: "-"
-  },
-  {
-    label: "Ciberseguridad",
-    description: "Soluciones para proteger tus sistemas: antivirus, antimalware, cortafuegos y formación en ciberseguridad.",
-    amount: "Hasta 29.000€",
-    segments: "Segmentos I, II y III"
-  },
-  {
-    label: "Presencia avanzada en internet",
-    description: "SEO avanzado, analítica web, posicionamiento estratégico y mejora de rendimiento.",
-    amount: "Hasta 5.000€",
-    segments: "Excluida de la primera convocatoria"
-  },
-  {
-    label: "Marketplace",
-    description: "Creación de portales multiproducto o multivendedor para la venta online en marketplaces.",
-    amount: "Hasta 2.000€",
-    segments: "Exclusiva para los segmentos I, II y III"
-  }
-]
+    {
+      label: "Sitio web y presencia basica en internet",
+      description: "Diseño y desarrollo de páginas web adaptadas a móviles, optimizadas para SEO y con alojamiento incluido.",
+      amount: "Hasta 2.000€",
+      segments: "Exclusiva para los segmentos I, II y III"
+    },
+    {
+      label: "Comercio electrónico",
+      description: "Creación de tiendas online con pasarelas de pago, gestión de productos y optimización del proceso de compra.",
+      amount: "Hasta 5.000€",
+      segments: "-"
+    },
+    {
+      label: "Gestión de redes sociales",
+      description: "Planificación estratégica, generación de contenido y gestión de campañas en redes sociales.",
+      amount: "Hasta 5.000€",
+      segments: "-"
+    },
+    {
+      label: "Presencia avanzada en internet",
+      description: "SEO avanzado, analítica web, posicionamiento estratégico y mejora de rendimiento.",
+      amount: "Hasta 5.000€",
+      segments: "Excluida de la primera convocatoria"
+    }
+  ]
 
 };
 
@@ -135,7 +117,7 @@ const Kitdigital = ( props ) => {
         title: "Selecciona tu solución",
         icon: "/img/kit-digital/2.svg",
         text: "Elige las diferentes soluciones de digitalización dentro del catálogo existente en el Programa Kit Digital.",
-        link: "/services/kit-digital"
+        link: "/kit-digital#kit-digital-soluciones"
       },
       {
         num: "03",
@@ -276,7 +258,7 @@ const Kitdigital = ( props ) => {
         
       </div>
       
-      <div className="container mil-content-frame mil-p-60-60">
+      <div className="container mil-content-frame mil-p-60-60" id="kit-digital-soluciones">
         <div className="row justify-content-between">
             <div className="container mil-content-frame mil-appearance mil-p-120-120">
 
