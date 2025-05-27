@@ -7,8 +7,11 @@ import CallToActionSection from "@components/sections/CallToAction";
 import PricingSection from "@components/sections/Pricing";
 
 import Link from "next/link";
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
 
 const Services = (props) => {
+  const seo = seoData.servicios;
   
   const Content = {
     "title": "Soluciones digitales a tu medida",
@@ -19,6 +22,7 @@ const Services = (props) => {
 
   return (
     <Layouts>
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"img/content/13.jpg"} pageTitle={"Services"} />
 
       {/* services */}

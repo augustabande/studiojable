@@ -13,6 +13,7 @@ import TeamSection from "@components/sections/Team";
 import SubscribeSection from "@components/sections/Subscribe";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import AboutTwoSection from "@components/sections/AboutTwo";
+import ServicesTwoSection from "../components/sections/ServicesTwo";
 
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 
@@ -20,9 +21,10 @@ const Home1 = (props) => {
   return (
     <Layouts transparent>
       <HeroOneSection />
-      <AboutSection />
-      <ServicesSection />
+
       <AboutTwoSection />
+      <ServicesSection />
+      <AboutSection />
       <TeamSection />
 
       

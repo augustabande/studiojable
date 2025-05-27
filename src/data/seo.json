@@ -1,0 +1,22 @@
+{
+  "home": {
+    "title": "Diseño web profesional | Soluciones digitales para empresas y autónomos",
+    "description": "Diseño web profesional para empresas y autónomos. En Studio Jable creamos páginas web personalizadas, con estrategia digital y diseño de alto impacto para destacar en internet.",
+    "keywords": "diseño web profesional, diseñador web profesional, diseño web empresas, diseño de páginas web, estrategia de marketing digital, diseño personalizado, página web profesional, soluciones digitales, agencia web"
+  },
+  "servicios": {
+    "title": "Servicios de desarrollo web y estrategia digital | Studio Jable",
+    "description": "Te ayudo a construir una presencia online efectiva con servicios personalizados de diseño web y consultoría digital.",
+    "keywords": "consultoría digital, desarrollo web a medida, estrategia digital, diseño personalizado"
+  },
+  "services/diseno-web": {
+    "title": "Desarrollo web a medida para empresas y autónomos | Studio Jable",
+    "description": "Ofrecemos desarrollo web a medida para entornos cliente con diseño personalizado y soluciones adaptadas a tu negocio. Como desarrollador de páginas web, creamos sitios funcionales, claros y enfocados a tus objetivos.",
+    "keywords": "desarrollo web a medida, desarrollo web en entorno cliente, desarrollador de paginas web, diseño personalizado, diseño de páginas web"
+  },
+  "contacto": {
+    "title": "Contacta con Studio Jable | Presupuesto diseño web",
+    "description": "Solicita tu propuesta sin compromiso y empieza tu transformación digital con una web que funcione.",
+    "keywords": "contacto diseño web, presupuesto página web, agencia digital"
+  }
+}

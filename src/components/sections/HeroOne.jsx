@@ -21,14 +21,14 @@ const HeroOne = () => {
 
                 <div className="container">
                     <div className="row mil-p-120-0 justify-content-between">
-                        <div className="col-md-6 col-lg-6">
+                        <div className="col-md-8 col-lg-8">
 
                             <div className="mil-link mil-appearance mil-softened-60 mil-mb-30">{Data.subtitle}</div>
                             <h1 className="mil-light mil-appearance mil-mb-120">
                                 {Data.title.before} <span className="mil-accent">{Data.title.accent}</span> {Data.title.after}
                             </h1>
                         </div>
-                        <div className="col-md-12 col-lg-5 mil-relative">
+                        <div className="col-md-10 col-lg-3 mil-relative">
 
                             <div className="mil-dots mil-appearance" />
 

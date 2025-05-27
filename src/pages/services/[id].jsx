@@ -12,8 +12,21 @@ import { getAllServicesIds, getServiceData } from "@library/services";
 import CallToActionSection from "@components/sections/CallToAction";
 import PricingSection from "@components/sections/Pricing";
 
+import seoData from "@data/seo.json";
+import { useRouter } from "next/router";
+import Head from "next/head";
+
 const ServiceDetail = ( { postData } ) => {
    console.log("postData:", postData); 
+    const router = useRouter();
+    const { id } = router.query;
+
+    const key = `services/${id}`;
+    const seo = seoData[key] || {
+      title: "Servicios digitales | Studio Jable",
+      description: "Descubre nuestros servicios de diseño web, estrategia digital y mantenimiento.",
+      keywords: "diseño web, servicios digitales, consultoría online"
+    };
   
   const Content = {
     "title": "Soluciones digitales a tu medida", 
@@ -29,6 +42,11 @@ const ServiceDetail = ( { postData } ) => {
 
   return (
     <Layouts>
+      <Head>
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
+        <meta name="keywords" content={seo.keywords} />
+      </Head>
       <PageBanner pageImage={postData.fullImage} pageTitle={postData.title} />
 
       {/* service */}

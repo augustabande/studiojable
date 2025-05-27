@@ -1,36 +1,36 @@
 ---
 #preview details
 image: "/img/icons/1.svg"
-title: "Diseño web y soluciones digitales"
-short: "Sitios web modernos y adaptados a cualquier dispositivo. Desde una landing hasta una web completa, con tienda online y visibilidad avanzada."
+title: "Desarrollo web a medida y diseño personalizado"
+short: "Creamos páginas web adaptadas a tu negocio. Desde una landing clara hasta soluciones completas con tienda online y visibilidad avanzada."
 
 #full details
 fullImage: "/img/content/11.jpg"
-description: "En Studio Jable diseño sitios web modernos para autónomos, profesionales y pequeñas empresas. Combinamos diseño, estructura, contenido y soporte continuo para que tu presencia online funcione de verdad. Además, desarrollamos tiendas online y estrategias digitales completas para ayudarte a crecer."
+description: "En Studio Jable ofrezco desarrollo web a medida para autónomos, profesionales y pequeñas empresas. Diseño sitios web funcionales, modernos y orientados a resultados. Como desarrolladora de páginas web, trabajo en entornos cliente para construir soluciones digitales que comuniquen tu valor, atraigan a tus clientes y te ayuden a crecer."
 
 list: 
-  - label: "Sitio Web y presencia básica en Internet"
-    value: "<p>Diseño de una web clara, moderna, responsive y accesible. Incluye estructura intuitiva, contenido estratégico, formulario de contacto, mapa, enlaces a redes sociales y SEO básico.</p>"
+  - label: "Sitio web alineado con tu negocio"
+    value: "<p>Diseño de páginas web que reflejan lo que haces y lo que te diferencia. Estructura clara, diseño responsive y estrategia de contenidos pensada para convertir.</p>"
 
-  - label: "Presencia avanzada en Internet"
-    value: "<p>Integración de blog profesional, conexión con Google Analytics y Search Console, generación de contenido optimizado y asesoramiento para mejorar tu posicionamiento y visibilidad en internet.</p>"
+  - label: "Solución básica para estar online"
+    value: "<p>Una web sencilla, profesional y completa: con formulario, mapa, enlaces a redes, accesibilidad y buen rendimiento. Ideal para empezar con fuerza.</p>"
 
-  - label: "Diseño adaptable a móvil y escritorio"
-    value: "<p>Todas nuestras webs son 100% responsivas. Se adaptan perfectamente a móviles, tablets y ordenadores para ofrecer la mejor experiencia al usuario.</p>"
+  - label: "Presencia avanzada con estrategia"
+    value: "<p>Blog integrado, análisis con Google, generación de contenido optimizado y asesoría personalizada para que tu web crezca contigo.</p>"
 
-  - label: "Carga rápida y mantenimiento ligero"
-    value: "<p>Desarrollamos sitios rápidos, sin plantillas pesadas, fáciles de mantener y preparados para crecer con tu negocio.</p>"
+  - label: "Diseño responsive y rendimiento"
+    value: "<p>Todas mis webs son 100% adaptables a móvil y escritorio, con carga rápida y sin plantillas pesadas que dificulten el mantenimiento.</p>"
 
-  - label: "Optimización SEO básica"
-    value: "<p>URLs limpias, títulos bien estructurados, etiquetas adecuadas y buenas prácticas de rendimiento para que Google entienda tu web desde el primer momento.</p>"
+  - label: "Optimización SEO desde el inicio"
+    value: "<p>URLs limpias, títulos coherentes, etiquetas claras y estructura preparada para que Google entienda tu proyecto y lo posicione.</p>"
 
-  - label: "Contenido claro y eficaz"
-    value: "<p>Te ayudamos a estructurar el contenido para comunicar de forma efectiva quién eres, qué haces y cómo pueden contactarte tus clientes.</p>"
+  - label: "Contenido que conecta"
+    value: "<p>Organizo tus textos y mensajes para que comuniques de forma clara quién eres, qué ofreces y cómo contactarte.</p>"
 
-  - label: "Acompañamiento y soporte técnico"
-    value: "<p>Te acompañamos más allá de la entrega con soporte puntual, asesoría y formación para que gestiones tu web de forma profesional.</p>"
+  - label: "Soporte y evolución continua"
+    value: "<p>No te dejo sola/o. Te ofrezco acompañamiento, asesoría y formación para que administres tu web con confianza y autonomía.</p>"
 
 buttons:
-  label: "Ver todos los servicios"
-  link: "/services" 
+  label: "Solicita tu presupuesto"
+  link: "/contact" 
 ---

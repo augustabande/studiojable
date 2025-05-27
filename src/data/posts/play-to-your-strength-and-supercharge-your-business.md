@@ -11,7 +11,7 @@ category:
 #full details
 author:
     name: "augusta bande"
-    avatar: "/img/team/1.png"
+    avatar: "/img/team/augusta-avatar.webp"
 
 gallery:
     enabled: 1
