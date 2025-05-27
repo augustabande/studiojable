@@ -25,17 +25,17 @@ const About = ( props ) => {
     },
     "gallery": [
       {
-        "url": "img/content/augusta-bande-consultora-informatica-canarias.webp",
+        "url": "/img/content/augusta-bande-consultora-informatica-canarias.webp",
         "width": 640,
         "height": 640
       },
       {
-        "url": "img/content/presencia-online-sitio-responsive-canarias.webp",
+        "url": "/img/content/presencia-online-sitio-responsive-canarias.webp",
         "width": 1134,
         "height": 2016
       },
       {
-        "url": "img/content/soluciones-digitales-empresas-canarias.webp",
+        "url": "/img/content/soluciones-digitales-empresas-canarias.webp",
         "width": 1134,
         "height": 2016
       }
@@ -44,7 +44,7 @@ const About = ( props ) => {
 
   return (
     <Layouts>
-      <PageBanner pageImage={"img/content/2.jpg"} pageTitle={"About"} />
+      <PageBanner pageImage={"/img/content/2.jpg"} pageTitle={"About"} />
       
       {/* about */}
       <div className="container mil-content-frame mil-appearance mil-p-120-90">

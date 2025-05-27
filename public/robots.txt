@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.studiojable.com
+
+# Sitemaps
+Sitemap: https://www.studiojable.com/sitemap.xml

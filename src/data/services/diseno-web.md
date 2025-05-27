@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/img/icons/2.svg"
+image: "/img/icons/1.svg"
 title: "Diseño web y soluciones digitales"
 short: "Sitios web modernos y adaptados a cualquier dispositivo. Desde una landing hasta una web completa, con tienda online y visibilidad avanzada."
 

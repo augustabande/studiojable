@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/icons/3.svg"
+image: "/img/icons/kitdigital.png"
 title: "Webs con Kit Digital"
 short: "Soy agente digitalizador autorizado. Si cumples los requisitos, puedes obtener tu web subvencionada al 100 %."
 

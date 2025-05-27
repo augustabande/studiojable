@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/icons/1.svg"
+image: "/img/icons/19.svg"
 title: "Mantenimiento y soporte"
 short: "Actualizaciones, cambios de contenido y solución de errores. Cuido tu web como si fuera la mía."
 

@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/icons/4.svg"
+image: "/img/icons/7.svg"
 title: "Asesoría digital"
 short: "¿Tienes una web antigua o no sabes por dónde empezar? Te ayudo a tomar decisiones claras y prácticas."
 

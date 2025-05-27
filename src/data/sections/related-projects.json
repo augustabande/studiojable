@@ -1,10 +1,10 @@
 {
-    "subtitle": "Related projects",
-    "title": "You may also be interested<br/> in these projects",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing ducimus, rem labore et delectus aspernatur.",
+    "subtitle": "Proyectos relacionados",
+    "title": "También te pueden interesar<br/> estos proyectos",
+    "description": "Explora otros trabajos recientes que hemos realizado para clientes de diferentes sectores. Cada proyecto está adaptado a las necesidades reales del negocio, combinando diseño, funcionalidad y estrategia digital.",
     "button": {
-        "label": "View all",
+        "label": "Ver todos",
         "link": "/portfolio"
     },
-    "numOfItems": 3
+    "numOfItems": 2
 }
