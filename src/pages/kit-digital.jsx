@@ -64,7 +64,7 @@ const Kitdigital = ( props ) => {
     "subtitle": "¿Qué es el Kit Digital?",
     "title": "¿Qué es el Kit Digital?",
     "text_1": "El Kit Digital es una iniciativa del Gobierno de España para subvencionar la digitalización de pequeñas empresas, microempresas y autónomos de cualquier sector, a través de la adopción de soluciones digitales que impulsan su desarrollo.",
-    "text_2": "Se trata de un Bono Digital 100% subvencionado con ayudas que parten desde los 3.000€ hasta los 29.000€, según el segmento al que pertenezca la empresa y el número de trabajadores. Nosotros nos encargamos de solicitarlo e implementarlo por ti.",
+    "text_2": "Se trata de un Bono Digital 100 % subvencionado con ayudas que parten desde los 3.000 € hasta los 29.000 €, según el segmento al que pertenezca la empresa y el número de trabajadores. Nosotros nos encargamos de solicitarlo e implementarlo por ti. Estas ayudas están financiadas por la Unión Europea a través de los fondos “Next Generation EU”, en el marco del Plan de Recuperación, Transformación y Resiliencia del Gobierno de España.",
       "image1": "/img/content/1.jpg",
       "image2": "/img/content/2.jpg",
       "rotateText": "Kit Digital - Transformación - Ayudas - Subvención"
@@ -201,7 +201,7 @@ const Kitdigital = ( props ) => {
             <img src="/img/kit-digital/Logo_Ministerio.png" alt="Gobierno de España" className="img-fluid logo-kitdigital" />
           </div>
           <div className="col-6 col-md-3 mil-mb-30">
-            <img src="/img/kit-digital/Logo_Red.es.png" alt="red.es" className="img-fluid logo-kitdigital" />
+            <img src="/img/kit-digital/Logo_kitdigital.webp" alt="Kit digital" className="img-fluid logo-kitdigital" />
           </div>
           <div className="col-6 col-md-3 mil-mb-30">
             <img src="/img/kit-digital/Logo_PRTR.png" alt="Plan de Recuperación, Transformación y Resiliencia" className="img-fluid logo-kitdigital" />
