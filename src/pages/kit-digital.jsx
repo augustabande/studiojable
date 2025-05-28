@@ -193,17 +193,23 @@ const Kitdigital = ( props ) => {
       </div>
       {/* about end */}
       <div className="container mil-content-frame">
+        <div className="row justify-content-center align-items-center text-center gap-4 flex-wrap">
+          <div className="col-12 col-md-12 mil-mb-30">Programa Kit Digital financiado por la Unión Europea - NextGenerationEU, en el marco del Plan de Recuperación, Transformación y Resiliencia.</div>
+        </div>
        <div className="row justify-content-center align-items-center text-center gap-4 flex-wrap">
-          <div className="col-6 col-md-3 mil-mb-30">
+          <div className="col-6 col-md-2 mil-mb-30">
             <img src="/img/kit-digital/Logo_union_europea.png" alt="Financiado por la Unión Europea" className="img-fluid logo-kitdigital" />
           </div>
-          <div className="col-6 col-md-3 mil-mb-30">
+          <div className="col-6 col-md-2 mil-mb-30">
             <img src="/img/kit-digital/Logo_Ministerio.png" alt="Gobierno de España" className="img-fluid logo-kitdigital" />
           </div>
-          <div className="col-6 col-md-3 mil-mb-30">
-            <img src="/img/kit-digital/Logo_kitdigital.webp" alt="Kit digital" className="img-fluid logo-kitdigital" />
+          <div className="col-6 col-md-2 mil-mb-30">
+            <img src="/img/kit-digital/Logo_Red.es.png" alt="red.es" className="img-fluid logo-kitdigital" />
           </div>
-          <div className="col-6 col-md-3 mil-mb-30">
+          <div className="col-6 col-md-2 mil-mb-30">
+            <img src="/img/kit-digital/Logo_kitdigital.png" alt="Kit digital" className="img-fluid logo-kitdigital" />
+          </div>
+          <div className="col-6 col-md-2 mil-mb-30">
             <img src="/img/kit-digital/Logo_PRTR.png" alt="Plan de Recuperación, Transformación y Resiliencia" className="img-fluid logo-kitdigital" />
           </div>
         </div>
