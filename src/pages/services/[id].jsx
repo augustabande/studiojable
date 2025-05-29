@@ -111,7 +111,7 @@ const ServiceDetail = ( { postData } ) => {
       </div>
       {/* service end */}
       
-      <PricingSection />
+      <PricingSection filterName={postData.id} />
 
       
 

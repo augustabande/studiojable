@@ -10,7 +10,7 @@ import HeroTwoSection from "@components/sections/HeroTwo"
 import AboutThreeSection from "@components/sections/AboutThree";
 import CountersSection from "@components/sections/Counters";
 import CallToActionSection from "../components/sections/CallToAction";
-import ServicesTwoSection from "@components/sections/ServicesTwo";
+import ServicesTwoSection from "@/src/components/sections/ServicesTwo";
 import SubscribeSection from "@components/sections/Subscribe";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import ProjectsSection from "@components/sections/Projects";

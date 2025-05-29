@@ -7,7 +7,7 @@ import { getSortedPostsData } from "@library/posts";
 import HeroOneSection from "@components/sections/HeroOne"
 
 import AboutSection from "@components/sections/About";
-import ServicesSection from "@components/sections/Services";
+import ServicesSection from "@/src/components/sections/Services";
 import TeamSection from "@components/sections/Team";
 
 import SubscribeSection from "@components/sections/Subscribe";

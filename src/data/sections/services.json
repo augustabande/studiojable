@@ -6,28 +6,32 @@
             "title": "Diseño web y soluciones digitales",
             "icon": "img/icons/1.svg",
             "text": "Creamos páginas web profesionales, adaptadas a tu negocio y optimizadas para convertir visitas en clientes. Ideal para autónomos, pequeñas empresas y negocios locales.",
-            "link": "/services/diseno-web"
+            "link": "/services/diseno-web",
+            "name": "Diseño web y soluciones digitales"
         },
         {
             "num": "02",
             "title": "Asesoría digital",
             "icon": "img/icons/2.svg",
             "text": "¿Tienes una web antigua o no sabes por dónde empezar? Te ayudo a tomar decisiones claras y prácticas.",
-            "link": "/services/asesoria-digital"
+            "link": "/services/asesoria-digital",
+            "name": "Asesoría digital"
         },
         {
             "num": "03",
             "title": "Webs con Kit Digital",
             "icon": "img/icons/3.svg",
             "text": "Páginas web subvencionadas 100%, adaptadas a cada segmento del bono.",
-            "link": "/services/kit-digital"
+            "link": "/services/kit-digital",
+            "name": "Webs con Kit Digital"
         },
         {
             "num": "04",
-            "title": "Mantenimiento y soporte",
+            "title": "Consultoría SEO",
             "icon": "img/icons/4.svg",
-            "text": "Actualizaciones, cambios de contenido y solución de errores. Cuido tu web como si fuera la mía.",
-            "link": "/services/mantenimento-soporte"
+            "text": "Mejoramos tu posicionamiento web con una estrategia SEO a medida para tu negocio.",
+            "link": "/services/consultoria-seo",
+            "name": "Mantenimiento y soporte"
         }
     ]
 }

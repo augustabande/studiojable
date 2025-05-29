@@ -1,7 +1,7 @@
 {
   "subtitle": "Precios",
-  "title": "Elige el servicio que mejor se adapta a tu proyecto",
-  "description": "Ofrezco soluciones adaptadas a cada etapa de tu presencia digital: desde el Kit Digital subvencionado hasta la creación de sitios web a medida. Aquí puedes ver mis servicios principales.",
+  "title": "Elige la solución que mejor se adapta a tu proyecto",
+  "description": "Cada servicio está pensado para responder a una necesidad específica de tu presencia digital. Puedes ver aquí el detalle de precios y lo que incluye cada propuesta, desde soluciones básicas hasta desarrollos personalizados.",
   "button": {
     "label": "Contáctame",
     "link": "/contacto"
@@ -9,6 +9,7 @@
   "items": [
     {
       "name": "Kit Digital",
+      "id": "kit-digital",
       "subname": "Web subvencionada",
       "price": "0€",
       "price_after": "",
@@ -25,28 +26,30 @@
         "link": "/kit-digital"
       }
     },
-     {
-        "name": "Mantenimiento",
-        "subname": "y soporte continuo",
-        "price": "75€",
-        "price_after": "/mes",
-        "price_label": "Ideal tras publicar tu web",
-        "list": [
-            { "active": 1, "value": "Actualización de sistema" },
-            { "active": 1, "value": "Revisión de seguridad" },
-            { "active": 1, "value": "Soporte para pequeños errores" },
-            { "active": 1, "value": "Modificaciones de contenido" },
-            { "active": 1, "value": "Asistencia técnica personalizada" }
-        ],
-        "button": {
-            "label": "Contratar plan",
-            "link": "mailto:hello@studiojable.com"
-        }
-    },
+    {
+      "name": "Consultoría para bloggers",
+      "id": "consultoria-bloggers",
+      "subname": "Impulsa tu blog con estrategia",
+      "price": "120 €",
+      "price_after": "",
+      "price_label": "1 hora de asesoría personalizada",
+      "list": [
+        { "active": 1, "value": "Análisis de tu blog y redes sociales" },
+        { "active": 1, "value": "SEO básico y contenidos" },
+        { "active": 1, "value": "Monetización y visibilidad" },
+        { "active": 1, "value": "Imágenes y optimización" },
+        { "active": 1, "value": "Resumen con pasos accionables" }
+      ],
+      "button": {
+        "label": "Reservar sesión",
+        "link": "https://tidycal.com/augustabande/consultoria-bloggers"
+      }
+    },    
     {
       "name": "Asesoría digital",
+      "id": "asesoria-digital",
       "subname": "Diagnóstico y plan estratégico",
-      "price": "250€",
+      "price": "280€",
       "price_after": "",
       "price_label": "Pago único",
       "list": [
@@ -58,11 +61,31 @@
       ],
       "button": {
         "label": "Reservar sesión",
-        "link": "https://tidycal.com/augustabande/60-minute-meeting"
+        "link": "https://tidycal.com/augustabande/asesoria-digital"
+      }
+    },
+    {
+      "name": "Consultoría SEO",
+      "id": "consultoria-seo",
+      "subname": "Acompañamiento 3 meses",
+      "price": "600€",
+      "price_after": "",
+      "price_label": "2 pagos de 300€ (inicio y mes 2)",
+      "list": [
+        { "active": 1, "value": "Sesión de 60 minutos conmigo" },
+        { "active": 1, "value": "Auditoría SEO" },
+        { "active": 1, "value": "Informe con plan de acción" },
+        { "active": 1, "value": "Videollamadas mensuales" },
+        { "active": 1, "value": "Informe final con sugerencias" }
+      ],
+      "button": {
+        "label": "Reservar sesión",
+        "link": "https://tidycal.com/augustabande/consultoria-seo"
       }
     },
     {
       "name": "Sitio web a medida",
+      "id": "diseno-web",
       "subname": "Diseño profesional personalizado",
       "price": "+2400 €",
       "price_after": "",
@@ -73,6 +96,25 @@
         { "active": 1, "value": "Optimización SEO y rendimiento" },
         { "active": 1, "value": "Responsive y autogestionable" },
         { "active": 1, "value": "Soporte post-lanzamiento" }
+      ],
+      "button": {
+        "label": "Solicita presupuesto",
+        "link": "mailto:hello@studiojable.com"
+      }
+    },
+    {
+      "name": "E-commerce",
+      "id": "e-commerce",
+      "subname": "E-commerce personalizado",
+      "price": "+3500 €",
+      "price_after": "",
+      "price_label": "Proyecto a medida",
+      "list": [
+       { "active": 1, "value": "Tienda online autogestionable" },
+      { "active": 1, "value": "Hasta 20 productos iniciales" },
+      { "active": 1, "value": "Pasarelas de pago integradas" },
+      { "active": 1, "value": "Diseño responsive adaptado" },
+      { "active": 1, "value": "SEO básico y formación" }
       ],
       "button": {
         "label": "Solicita presupuesto",
