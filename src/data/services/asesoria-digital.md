@@ -5,7 +5,7 @@ title: "Asesoría digital"
 short: "¿Tienes una web antigua o no sabes por dónde empezar? Te ayudo a tomar decisiones claras y prácticas."
 
 #full details
-fullImage: "/img/content/12.jpg"
+fullImage: "/img/content/desarrollo-web-fuerteventura-consultor.webp"
 description: "Con la asesoría digital de Studio Jable te ayudo a mejorar tu presencia online, desde la estructura de tu web hasta la integración con redes sociales o contenidos como el blog. Si no sabes por dónde empezar, este servicio es para ti."
 
 list: 
@@ -23,9 +23,6 @@ list:
 
   - label: "SEO básico y palabras clave"
     value: "<p>Estudio tus palabras clave, reviso títulos y descripciones, y optimizo tu web para mejorar tu posicionamiento orgánico.</p>"
-
-  - label: "Consultas personalizadas"
-    value: "<p>Sesiones de 30 o 60 minutos para resolver dudas específicas, revisar una web en desarrollo o acompañarte en el proceso digital.</p>"
 
 buttons:
   label: "Ver todos los servicios"

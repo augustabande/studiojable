@@ -5,7 +5,7 @@ title: "Desarrollo web a medida y diseño personalizado"
 short: "Creamos páginas web adaptadas a tu negocio. Desde una landing clara hasta soluciones completas con tienda online y visibilidad avanzada."
 
 #full details
-fullImage: "/img/content/11.jpg"
+fullImage: "/img/content/desarrollo-web-fuerteventura-consultor.webp"
 description: "En Studio Jable ofrezco desarrollo web a medida para autónomos, profesionales y pequeñas empresas. Diseño sitios web funcionales, modernos y orientados a resultados. Como desarrolladora de páginas web, trabajo en entornos cliente para construir soluciones digitales que comuniquen tu valor, atraigan a tus clientes y te ayuden a crecer."
 
 list: 

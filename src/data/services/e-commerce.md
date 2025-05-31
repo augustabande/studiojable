@@ -5,7 +5,7 @@ title: "Tienda online y soluciones e-commerce"
 short: "Crea tu tienda online profesional y empieza a vender en internet con todas las garantías."
 
 #full details
-fullImage: "/img/content/12.jpg"
+fullImage: "/img/content/desarrollo-web-fuerteventura-consultor"
 description: "En Studio Jable diseñamos tiendas online modernas, funcionales y seguras para que puedas vender tus productos o servicios en internet. Desde la configuración inicial hasta el soporte post-lanzamiento, te acompañamos en todo el proceso."
 
 list: 

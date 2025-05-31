@@ -5,7 +5,7 @@ title: "Webs con Kit Digital"
 short: "Soy agente digitalizador autorizado. Si cumples los requisitos, puedes obtener tu web subvencionada al 100 %."
 
 #full details
-fullImage: "/img/content/13.jpg"
+fullImage: "/img/content/desarrollo-web-fuerteventura-consultor.webp"
 description: "En Studio Jable ofrecemos el servicio de creación de sitio web subvencionado por el Programa Kit Digital. Creamos páginas web adaptadas a tu negocio, cumpliendo con todos los requisitos técnicos establecidos en el programa oficial. Si eres autónomo o pyme, podemos ayudarte a obtener tu bono y digitalizar tu presencia en internet."
 
 list: 
