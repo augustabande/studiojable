@@ -76,19 +76,19 @@
             
             {
                 "label": "Política de Privacidad",
-                "link": "privacy-policy"
+                "link": "/privacy-policy"
             },
             {
                 "label": "Política de Cookies",
-                "link": "cookie-policy"
+                "link": "/cookie-policy"
             },
             {
                 "label": "Accesibilidad",
-                "link": "accessibility"
+                "link": "/accessibility"
             },
             {
                 "label": "Términos y Condiciones",
-                "link": "terminos-y-condiciones"
+                "link": "/terminos-y-condiciones"
             }
         ],
         "copy": "© 2025 studiojable. All Rights Reserved.",
