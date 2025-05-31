@@ -14,13 +14,16 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 import { cursorSwiperAnimation } from "@/src/common/cursor";
 import Link from "next/link";
 
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
+
 
 const Kitdigital = ( props ) => {
   useEffect(() => {
     cursorSwiperAnimation();
      accordion();
   }, []);
-
+  const seo = seoData.kitdigital;
   const postData = {
   title: "Soluciones Kit Digital",
   description: "Como Agente Digitalizador autorizado, Jable Studio ofrece soluciones subvencionadas por el programa Kit Digital para impulsar la transformación digital de pymes y autónomos.",
@@ -139,6 +142,7 @@ const Kitdigital = ( props ) => {
 
   return (
     <Layouts>
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"/img/content/desarrollo-web-fuerteventura-consultor.webp"} pageTitle={"About 2"} />
       
       {/* about */}

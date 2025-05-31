@@ -27,12 +27,12 @@ description0:
 gallery:
   enabled: 1
   items:
-    - image: /img/portfolio/bychloe/bychloe_post1.webp
+    - image: /img/portfolio/bychloe/post-de-blog.jpg
       width: 1200
       height: 900
       alt: "Vista de un post del blog byChloe.it"
 
-    - image: /img/portfolio/bychloe/bychloe_mobile.webp
+    - image: /img/portfolio/bychloe/responsive-bychloe.webp
       width: 1200
       height: 900
       alt: "Diseño responsive para móviles"

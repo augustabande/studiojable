@@ -13,6 +13,9 @@ import ModalVideo from 'react-modal-video'
 
 import Link from "next/link";
 
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
+
 const PortfolioTwo = (props) => {
 
   const rows = [];
@@ -38,7 +41,7 @@ const PortfolioTwo = (props) => {
     setModalURL(e.target.getAttribute('data-href'));
     setOpen(true);
   }  
-
+    const seo = seoData.portfolio;
   const Content = {
     title: "Proyectos recientes",
     subtitle: "Portfolio",
@@ -49,7 +52,7 @@ const PortfolioTwo = (props) => {
   return (
     <Layouts>
       
-      <PageBanner pageImage={"img/content/24.jpg"} pageTitle={"Portfolio"} />
+      <PageBanner pageImage={"/img/content/desarrollo-web-fuerteventura.webp"} pageTitle={"Portfolio"} />
 
       {/* portfolio */}
       <div className="container mil-content-frame mil-p-120-90 mil-appearance">
