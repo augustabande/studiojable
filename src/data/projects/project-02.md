@@ -1,11 +1,11 @@
 ---
 #preview
 title: Bright Journey
-image: /img/portfolio/2.webp # sostituisci col percorso giusto
+image: /img/portfolio/brightjourney/brighthourney-3-devices-white.webp # sostituisci col percorso giusto
 imageWidth: 1200
 imageHeight: 900
 category:
-    - Consultancy
+    - Consultancy 
 
 #full details
 details:

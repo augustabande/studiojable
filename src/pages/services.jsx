@@ -23,7 +23,7 @@ const Services = (props) => {
   return (
     <Layouts>
       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
-      <PageBanner pageImage={"img/content/13.jpg"} pageTitle={"Srvicios"} />
+      <PageBanner pageImage={"/img/content/desarrollo-web-fuerteventura-consultor.webp"} pageTitle={"Servicios"} />
 
       {/* services */}
       <div className="container mil-content-frame mil-appearance mil-p-120-90">

@@ -1,7 +1,7 @@
 ---
 #preview
 title: Enjoy Trulli
-image: /img/portfolio/3.webp # Usa l'immagine principale (quella nel mockup)
+image: /img/portfolio/enjoytrulli/enjoytrulli-devices-white.webp # Usa l'immagine principale (quella nel mockup)
 imageWidth: 1200
 imageHeight: 900
 category:

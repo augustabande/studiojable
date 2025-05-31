@@ -139,7 +139,7 @@ const Kitdigital = ( props ) => {
 
   return (
     <Layouts>
-      <PageBanner pageImage={"img/content/2.jpg"} pageTitle={"About 2"} />
+      <PageBanner pageImage={"/img/content/desarrollo-web-fuerteventura-consultor.webp"} pageTitle={"About 2"} />
       
       {/* about */}
       <div className="container mil-content-frame mil-p-120-0">

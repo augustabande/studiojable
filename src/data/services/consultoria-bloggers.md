@@ -5,7 +5,7 @@ title: "Consultoría para bloggers"
 short: "Te ayudo a resolver los problemas técnicos y de visibilidad de tu blog."
 
 #full details
-fullImage: "/img/content/1.svg"
+fullImage: "/img/content/desarrollo-web-fuerteventura-consultor.webp"
 description: "¿Tienes un blog pero a veces te abruma la parte técnica? ¿Te cuesta elegir plugins, mejorar las imágenes o entender por qué tu web va lenta? Esta sesión está pensada para bloggers que quieren tener su blog bien configurado, sin complicarse. Con consejos claros, prácticos y adaptados a tu nivel."
 
 list:
