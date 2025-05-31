@@ -52,7 +52,7 @@ const PortfolioTwo = (props) => {
   return (
     <Layouts>
       
-      <PageBanner pageImage={"/img/content/desarrollo-web-fuerteventura.webp"} pageTitle={"Portfolio"} />
+      <PageBanner pageImage={"/img/content/desarrollo-web-Fuerteventura.webp"} pageTitle={"Portfolio"} />
 
       {/* portfolio */}
       <div className="container mil-content-frame mil-p-120-90 mil-appearance">
