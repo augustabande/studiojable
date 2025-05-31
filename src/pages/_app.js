@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
 
         {/* seo end */}   
           	
-	      <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/e1734ea95b2432fcaa34569d/script.js"></script>
+	      <script id="cookieyes" strategy="lazyOnload" type="text/javascript" src="https://cdn-cookieyes.com/client_data/e1734ea95b2432fcaa34569d/script.js"></script>
 
       </Head>
       <Component {...pageProps} />
