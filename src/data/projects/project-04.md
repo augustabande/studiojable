@@ -32,12 +32,12 @@ gallery:
       height: 900
       alt: "Vista de un post del blog byChloe.it"
 
-    - image: /img/portfolio/bychloe/responsive-bychloe.webp
+    - image: /img/portfolio/bychloe/bychloeit.jpg
       width: 1200
       height: 900
       alt: "Diseño responsive para móviles"
 
-    - image: /img/portfolio/bychloe/bychloe_home.webp
+    - image: /img/portfolio/bychloe/bychloehome.jpg
       width: 1200
       height: 900
       alt: "Página principal con estructura clara y atractiva"
