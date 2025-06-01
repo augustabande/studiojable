@@ -67,9 +67,9 @@ const Kitdigital = ( props ) => {
     "subtitle": "¿Qué es el Kit Digital?",
     "title": "¿Qué es el Kit Digital?",
     "text_1": "El Kit Digital es una iniciativa del Gobierno de España para subvencionar la digitalización de pequeñas empresas, microempresas y autónomos de cualquier sector, a través de la adopción de soluciones digitales que impulsan su desarrollo.",
-    "text_2": "Se trata de un Bono Digital 100 % subvencionado con ayudas que parten desde los 3.000 € hasta los 29.000 €, según el segmento al que pertenezca la empresa y el número de trabajadores. Nosotros nos encargamos de solicitarlo e implementarlo por ti. Estas ayudas están financiadas por la Unión Europea a través de los fondos “Next Generation EU”, en el marco del Plan de Recuperación, Transformación y Resiliencia del Gobierno de España.",
-      "image1": "/img/content/1.jpg",
-      "image2": "/img/content/2.jpg",
+    "text_2": "Se trata de un Bono Digital 100 % subvencionado con ayudas que parten desde los 3.000 € hasta los 29.000 €, según el segmento al que pertenezca la empresa y el número de trabajadores. Nosotros nos encargamos de solicitarlo e implementarlo por ti. Estas ayudas están financiadas por la Unión Europea a través de los fondos “Next Generation EU”, en el marco del Plan de Recuperación, Transformación y Resiliencia del Gobierno de España.",     
+      "image1": "/img/content/studio-jable-agente-para-kit-digital.webp",
+      "image2": "/img/content/kit-digital-studio-jable.webp",
       "rotateText": "Kit Digital - Transformación - Ayudas - Subvención"
     },
     "about2": {
