@@ -14,8 +14,10 @@ export const Content = {
 }
 
 const Blog = ( { posts, totalPosts, currentPage } ) => {
+  const seo = seoData.blog;
   return (
     <Layouts>
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"img/content/11.jpg"} pageTitle={"Blog"} />
 
       <div className="mil-spacer" />

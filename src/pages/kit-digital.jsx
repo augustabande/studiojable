@@ -17,7 +17,6 @@ import Link from "next/link";
 import Seo from "@components/Seo";
 import seoData from "@data/seo.json";
 
-
 const Kitdigital = ( props ) => {
   useEffect(() => {
     cursorSwiperAnimation();
@@ -143,7 +142,7 @@ const Kitdigital = ( props ) => {
   return (
     <Layouts>
       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
-      <PageBanner pageImage={"/img/content/desarrollo-web-fuerteventura-consultor.webp"} pageTitle={"About 2"} />
+      <PageBanner pageImage={"/img/content/desarrollo-web-fuerteventura-consultor.webp"} pageTitle={"Kit Digital"} />
       
       {/* about */}
       <div className="container mil-content-frame mil-p-120-0">

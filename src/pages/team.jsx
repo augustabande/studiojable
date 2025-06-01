@@ -4,6 +4,7 @@ import Layouts from "@layouts/Layouts";
 import CallToActionSection from "@components/sections/CallToAction";
 
 const Team = () => {
+  const seo = seoData.team;
 
   const Content = {
     "subtitle": "Team Members",
@@ -50,6 +51,7 @@ const Team = () => {
 
   return (
     <Layouts>
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"img/content/3.jpg"} pageTitle={"Team"} />
 
       {/* team */}

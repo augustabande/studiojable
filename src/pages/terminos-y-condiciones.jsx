@@ -2,8 +2,10 @@ import Layouts from "@/src/layouts/Layouts";
 import PageBanner from "@/src/components/PageBanner";
 
 const TerminosYCondiciones = () => {
+  const seo = seoData.terminos-y-condiciones;
   return (
     <Layouts>
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"/img/content/servicios-web-consultoria-fuerteventura.webp"} pageTitle={"Términos y Condiciones"} />
 
       <div className="container mil-content-frame mil-appearance mil-p-120-90">

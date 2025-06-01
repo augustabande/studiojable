@@ -10,10 +10,12 @@ import CountersSection from "@components/sections/Counters";
 
 import 'photoswipe/dist/photoswipe.css'
 
-import { Gallery, Item } from 'react-photoswipe-gallery'
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
 
 const About3 = ( props ) => {
-
+   const seo = seoData.about;
   const Content = {
     "about1": {
       "title": "My story.",
@@ -56,6 +58,7 @@ const About3 = ( props ) => {
 
   return (
     <Layouts>
+       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"img/content/2.jpg"} pageTitle={"About 2"} />
       
       {/* about */}

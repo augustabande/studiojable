@@ -17,6 +17,7 @@ import Seo from "@components/Seo";
 import seoData from "@data/seo.json";
 
 const PortfolioTwo = (props) => {
+  const seo = seoData.portfolio;
 
   const rows = [];
   const projectsGrid = [];
@@ -41,7 +42,6 @@ const PortfolioTwo = (props) => {
     setModalURL(e.target.getAttribute('data-href'));
     setOpen(true);
   }  
-    const seo = seoData.portfolio;
   const Content = {
     title: "Proyectos recientes",
     subtitle: "Portfolio",
@@ -51,7 +51,7 @@ const PortfolioTwo = (props) => {
 
   return (
     <Layouts>
-      
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"/img/content/desarrollo-web-Fuerteventura.webp"} pageTitle={"Portfolio"} />
 
       {/* portfolio */}

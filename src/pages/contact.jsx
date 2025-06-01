@@ -4,7 +4,7 @@ import { Formik } from 'formik';
 import appData from "@data/app.json";
 
 const Contact = () => {
-
+const seo = seoData.contact;
   const Content = {
     "subtitle": "Contacto",
     "title": "Ponte en contacto",
@@ -24,6 +24,7 @@ const Contact = () => {
 
   return (
     <Layouts>
+        <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"/img/content/servicios-web-consultoria-fuerteventura.webp"} pageTitle={"Contact"} />
 
       {/* contact */}

@@ -8,6 +8,8 @@ import LatestPostsSection from "../components/sections/LatestPosts";
 import CallToActionSection from "../components/sections/CallToAction";
 import CountersSection from "../components/sections/Counters";
 import TechnologiesSection from "../components/sections/Technologies";
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
 
 import Link from "next/link";
 
@@ -16,6 +18,7 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery';
 
 const About = ( props ) => {
+  const seo = seoData.about;
   const Content = {
     "about": {
       "subtitle": "Mi historia",
@@ -44,6 +47,7 @@ const About = ( props ) => {
 
   return (
     <Layouts>
+       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       <PageBanner pageImage={"/img/content/augusta-bande-consultora-informatica-canarias.webp"} pageTitle={"About"} />
       
       {/* about */}

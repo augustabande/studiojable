@@ -46,7 +46,7 @@
   },
   "about": {
     "title": "Acerca de Studio Jable | Diseño web profesional para empresas y autónomos",
-    "description": "Conoce a Studio Jable, un diseñador web con experiencia en diseño de páginas web, estrategia de marketing digital y soluciones digitales para empresas y autónomos.",
+    "description": "Conoce a Studio Jable, un agencia web con experiencia en diseño de páginas web, estrategia de marketing digital y soluciones digitales para empresas y autónomos.",
     "keywords": "acerca de studio jable, diseño web profesional, estrategia de marketing digital, soluciones digitales, agencia web"
   },
   "blog": {
@@ -54,9 +54,29 @@
     "description": "Explora artículos sobre diseño web, estrategia de marketing digital y soluciones digitales. Encuentra consejos y tutoriales para mejorar tu presencia online.",
     "keywords": "blog de diseño web, artículos de diseño web, estrategia de marketing digital, soluciones digitales, tutoriales de diseño web"
   },
-  "contacto": {
+  "contact": {
     "title": "Contacta con Studio Jable | Presupuesto diseño web",
     "description": "Solicita tu propuesta sin compromiso y empieza tu transformación digital con una web que funcione.",
     "keywords": "contacto diseño web, presupuesto página web, agencia digital"
-  }
+  },
+  "cookie-policy": {
+    "title": "Política de cookies | Studio Jable",
+    "description": "Descubre cómo usamos las cookies para mejorar tu experiencia en nuestro sitio. Consulta tu configuración o retira el consentimiento en cualquier momento.",
+    "keywords": "cookies, política de cookies, uso de cookies, consentimiento cookies"
+  },
+  "terminos-y-condiciones": {
+    "title": "Términos y condiciones de uso | Studio Jable",
+    "description": "Consulta las condiciones legales para el uso de este sitio web, los servicios ofrecidos y los derechos del usuario.",
+    "keywords": "términos y condiciones, condiciones de uso, aviso legal, uso del sitio web"
+  },
+  "privacy-policy": {
+  "title": "Política de privacidad | Studio Jable",
+  "description": "Lee cómo protegemos tus datos personales y cumplimos con el Reglamento General de Protección de Datos (RGPD).",
+  "keywords": "política de privacidad, protección de datos, privacidad web, RGPD"
+},
+"accessibility": {
+  "title": "Declaración de accesibilidad | Studio Jable",
+  "description": "Comprometidos con una experiencia web accesible para todos los usuarios, conforme a la normativa vigente.",
+  "keywords": "accesibilidad web, declaración de accesibilidad, sitio accesible, inclusión digital"
+}
 }

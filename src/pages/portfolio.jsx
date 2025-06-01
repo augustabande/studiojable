@@ -37,9 +37,10 @@ const Portfolio = (props) => {
     setModalURL(e.target.getAttribute('data-href'));
     setOpen(true);
   }
-
+  const seo = seoData.portfolio;
   return (
     <Layouts>
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
       
       <div className="mil-spacer-100 mil-spacer-dark" />
 
