@@ -61,15 +61,15 @@
             },
             {
                 "label": "About",
-                "link": "about"
+                "link": "/about"
             },
             {
                 "label": "Servicios",
-                "link": "services"
+                "link": "/services"
             },
             {
                 "label": "Contacto",
-                "link": "contact"
+                "link": "/contact"
             }
         ],
         "links": [
