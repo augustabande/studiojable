@@ -17,7 +17,7 @@ const PricingSection = ({ filterName }) => {
                     <div className="col-xl-5">
 
                         <h3 className="mil-link mil-appearance mil-accent mil-mb-30">{Data.subtitle}</h3>
-                        <h3 className="mil-mb-30 mil-appearance">{Data.title}</h3>
+                        <h1 className="mil-mb-30 mil-appearance">{Data.title}</h1>
 
                     </div>
                     <div className="col-xl-6">
@@ -97,7 +97,7 @@ const PricingSection = ({ filterName }) => {
                     <div className="col-xl-5">
 
                         <h3 className="mil-link mil-appearance mil-accent mil-mb-30">{Data.subtitle}</h3>
-                        <h3 className="mil-mb-30 mil-appearance">{Data.title}</h3>
+                        <h2 className="mil-mb-30 mil-appearance">{Data.title}</h2>
 
                     </div>
                     <div className="col-xl-6">

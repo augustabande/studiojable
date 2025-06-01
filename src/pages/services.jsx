@@ -31,7 +31,7 @@ const Services = (props) => {
           <div className="row justify-content-between">
               <div className="col-lg-4 mil-mb-120">
                   <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Content.subtitle}</span>
-                  <h3 className="mil-appearance mil-mb-30">{Content.title}</h3>
+                  <h1 className="mil-appearance mil-mb-30">{Content.title}</h1>
 
                   <p className="mil-appearance mil-mb-30">{Content.description1}</p>
                   <p className="mil-appearance mil-mb-30">{Content.description2}</p>

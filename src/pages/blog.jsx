@@ -27,7 +27,7 @@ const Blog = ( { posts, totalPosts, currentPage } ) => {
                   <div className="col-xl-5">
 
                       <h3 className="mil-link mil-appearance mil-accent mil-mb-30">{Content.subtitle}</h3>
-                      <h3 className="mil-mb-30 mil-appearance" dangerouslySetInnerHTML={{__html : Content.title}} />
+                      <h1 className="mil-mb-30 mil-appearance" dangerouslySetInnerHTML={{__html : Content.title}} />
 
                   </div>
                   <div className="col-xl-6">

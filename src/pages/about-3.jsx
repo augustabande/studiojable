@@ -64,7 +64,7 @@ const About3 = ( props ) => {
           <div className="row justify-content-between align-items-center">
               <div className="col-lg-3">
 
-                  <h4 className="mil-bold mil-appearance mil-mb-30">{Content.about1.title}</h4>
+                  <h1 className="mil-bold mil-appearance mil-mb-30">{Content.about1.title}</h1>
                   <p className="mil-appearance mil-mb-15">{Content.about1.text_1}</p>
                   <p className="mil-appearance mil-mb-10">{Content.about1.text_2}</p>
                   <div className="mil-flex mil-appearance align-items-center mil-mb-30">
@@ -103,7 +103,7 @@ const About3 = ( props ) => {
           <div className="row justify-content-between">
               <div className="col-lg-5">
                   <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Content.about2.subtitle}</span>
-                  <h3 className="mil-appearance mil-mb-30">{Content.about2.title}</h3>
+                  <h1 className="mil-appearance mil-mb-30">{Content.about2.title}</h1>
               </div>
               <div className="col-lg-6">
 

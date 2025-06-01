@@ -58,7 +58,7 @@ const Team = () => {
           <div className="row justify-content-between mil-mb-120">
               <div className="col-lg-5">
                   <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Content.subtitle}</span>
-                  <h3 className="mil-appearance mil-mb-30" dangerouslySetInnerHTML={{__html : Content.title}} />
+                  <h1 className="mil-appearance mil-mb-30" dangerouslySetInnerHTML={{__html : Content.title}} />
               </div>
               <div className="col-lg-6">
                   <p className="mil-appearance mil-mt-55-adapt mil-mb-30">{Content.description}</p>

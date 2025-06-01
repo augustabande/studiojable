@@ -151,7 +151,7 @@ const Kitdigital = ( props ) => {
               <div className="mil-12 col-xl-5 mil-mb-90">
 
                   <div className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Content.about1.subtitle}</div>
-                  <h3 className="mil-appearance mil-mb-30">{Content.about1.title}</h3>
+                  <h1 className="mil-appearance mil-mb-30">{Content.about1.title}</h1>
                   <p className="mil-appearance mil-mb-30">{Content.about1.text_1}</p>
                   <p className="mil-appearance mil-mb-30">{Content.about1.text_2}</p>
 
@@ -222,7 +222,7 @@ const Kitdigital = ( props ) => {
          <div className="row justify-content-between">
             <div className="col-lg-4 mil-mb-120">
                   <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">Sigue nuestro proceso para solicitar la ayuda</span>
-                  <h3 className="mil-appearance mil-mb-30">Pasos para solicitar la ayuda</h3>
+                  <h2 className="mil-appearance mil-mb-30">Pasos para solicitar la ayuda</h2>
 
                   <p className="mil-appearance mil-mb-30"></p>
                   <p className="mil-appearance mil-mb-30"></p>
@@ -275,7 +275,7 @@ const Kitdigital = ( props ) => {
             <div className="row justify-content-between">
                 <div className="col-lg-4 mil-mb-120">
                     <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">Kit Digital • Servicios subvencionados</span>
-                    <h3 className="mil-appearance mil-mb-30">Soluciones digitales con el Kit Digital</h3>
+                    <h2 className="mil-appearance mil-mb-30">Soluciones digitales con el Kit Digital</h2>
 
                     <p className="mil-appearance mil-mb-30">Si eres autónomo, profesional o pequeña empresa y quieres digitalizar tu negocio con ayuda del Kit Digital, estás en el lugar adecuado.
   En Studio Jable te ofrecemos soluciones completas, personalizadas y subvencionadas: desde páginas web y tiendas online hasta herramientas de gestión y automatización de procesos.
@@ -350,7 +350,7 @@ const Kitdigital = ( props ) => {
           <div className="row justify-content-between">
               <div className="col-lg-5">
                   <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Content.about2.subtitle}</span>
-                  <h3 className="mil-appearance mil-mb-30">{Content.about2.title}</h3>
+                  <h2 className="mil-appearance mil-mb-30">{Content.about2.title}</h2>
               </div>
               <div className="col-lg-6">
                   <div className="row">

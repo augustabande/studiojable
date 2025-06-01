@@ -11,7 +11,7 @@ const RelatedPostsSection = ( Content ) => {
                     <div className="col-xl-5">
 
                         <h3 className="mil-link mil-appearance mil-accent mil-mb-30">{Data.subtitle}</h3>
-                        <h3 className="mil-mb-30 mil-appearance" dangerouslySetInnerHTML={{__html : Data.title}} />
+                        <h1 className="mil-mb-30 mil-appearance" dangerouslySetInnerHTML={{__html : Data.title}} />
 
                     </div>
                     <div className="col-xl-6">

@@ -14,7 +14,7 @@ const AboutTwoSection = () => {
             <div className="mil-12 col-xl-6 mil-mb-120">
 
                 <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Data.subtitle}</h3>
-                <h3 className="mil-appearance mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
+                <h1 className="mil-appearance mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
                 <p className="mil-appearance mil-mb-30">{Data.description}</p>
 
                 {/* counters */}

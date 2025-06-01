@@ -9,7 +9,7 @@ const SubscribeSection = ( { bgColorClass } ) => {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-lg-2">
 
-                        <h4 className="mil-appearance mil-mb-30">{Data.title}</h4>
+                        <h2 className="mil-appearance mil-mb-30">{Data.title}</h2>
 
                     </div>
                     <div className="col-lg-6">

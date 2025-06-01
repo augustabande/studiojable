@@ -15,7 +15,7 @@ const AboutThreeSection = () => {
                 <div className="col-xl-6">
 
                     <h3 className="mil-link mil-softened-60 mil-mb-30">{Data.subtitle}</h3>
-                    <h3 className="mil-mb-30 mil-appearance">{Data.title}</h3>
+                    <h1 className="mil-mb-30 mil-appearance">{Data.title}</h1>
 
                 </div>
                 <div className="col-xl-3">

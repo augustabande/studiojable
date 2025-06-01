@@ -59,7 +59,7 @@ const PortfolioTwo = (props) => {
           <div className="row">
             <div className="col-12 mil-text-center mil-appearance mil-mb-120">
                 <h3 className="mil-link mil-appearance mil-accent mil-mb-30">{Content.subtitle}</h3>
-                <h3 className="mil-appearance mil-mb-30">{Content.title}</h3>
+                <h1 className="mil-appearance mil-mb-30">{Content.title}</h1>
                 <p className="mil-text mil-appearance mil-shortened-50 m-auto">{Content.description}</p>
             </div>
           </div>

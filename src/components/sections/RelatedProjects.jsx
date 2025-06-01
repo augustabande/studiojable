@@ -29,7 +29,7 @@ const RelatedProjectsSection = ( Content ) => {
                     <div className="col-xl-6">
 
                         <h3 className="mil-link mil-softened-60 mil-mb-30">{Data.subtitle}</h3>
-                        <h3 className="mil-mb-30 mil-appearance" dangerouslySetInnerHTML={{__html : Data.title}} />
+                        <h1 className="mil-mb-30 mil-appearance" dangerouslySetInnerHTML={{__html : Data.title}} />
 
                     </div>
                     <div className="col-xl-4 mil-mb-120">

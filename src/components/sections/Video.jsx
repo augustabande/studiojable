@@ -19,7 +19,7 @@ const VideoSection = () => {
                 <div className="mil-inner-text mil-text-center mil-p-120-120">
                     <div className="container mil-relative">
                         <div className="mil-button mil-button-lg mil-button-rounded mil-button-linear mil-button-light mil-icon mil-appearance mil-mb-30"><span><i className="fas fa-play" style={{'transform': 'translateX(2px)'}}></i></span></div>
-                        <h3 className="mil-light mil-appearance mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
+                        <h1 className="mil-light mil-appearance mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
                         <p className="mil-link mil-shortened-50 mil-softened-20 mil-appearance mx-auto">{Data.subtitle}</p>
                     </div>
                 </div>

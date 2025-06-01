@@ -7,7 +7,7 @@ const AwardsSection = () => {
             <div className="row">
                 <div className="col-lg-6">
                     <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Data.subtitle}</span>
-                    <h3 className="mil-mb-30 mil-appearance">{Data.title}</h3>
+                    <h1 className="mil-mb-30 mil-appearance">{Data.title}</h1>
                 </div>
                 <div className="col-lg-6">
                     <p className="mil-appearance mil-mt-55-adapt mil-mb-60">{Data.description}</p>

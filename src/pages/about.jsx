@@ -51,7 +51,7 @@ const About = ( props ) => {
           <div className="row justify-content-between">
               <div className="col-lg-5">
                   <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Content.about.subtitle}</span>
-                  <h3 className="mil-appearance mil-mb-30">{Content.about.title}</h3>
+                  <h1 className="mil-appearance mil-mb-30">{Content.about.title}</h1>
               </div>
               <div className="col-lg-6">
                   <div className="row">

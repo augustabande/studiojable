@@ -11,7 +11,7 @@ const ServicesTwoSection = ( { services } ) => {
                     <div className="col-xl-5 mil-mb-120">
 
                         <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-30">{Data.subtitle}</h3>
-                        <h3 className="mil-appearance mil-mb-30">{Data.title}</h3>
+                        <h1 className="mil-appearance mil-mb-30">{Data.title}</h1>
                         <p className="mil-appearance mil-mb-30">{Data.description}</p>
 
                         {/* buttons */}
