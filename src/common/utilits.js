@@ -13,7 +13,7 @@ export const accordion = () => {
       }
     };
   }
-};
+}; 
 
 export const formInputs = () => {
   var inputs = document.querySelectorAll("input");

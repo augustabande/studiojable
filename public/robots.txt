@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://studiojable.com
+Host: https://www.studiojable.com
 
 # Sitemaps
-Sitemap: https://studiojable.com/sitemap.xml
+Sitemap: https://www.studiojable.com/sitemap.xml
