@@ -80,7 +80,7 @@ const Kitdigital = ( props ) => {
     },
     "button": {
       "label": "Solicita información",
-      "link": "/contacto"
+      "link": "/contact"
     },
     "gallery": [
       {
