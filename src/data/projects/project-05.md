@@ -27,19 +27,19 @@ description0:
 gallery:
   enabled: 1
   items:
-    - image: /img/portfolio/hotspots/hotspots_home.webp
-      width: 1200
-      height: 900
+    - image: /img/portfolio/asap/hotspots_home.webp
+      width: 1198
+      height: 894
       alt: "Vista general del sitio Agricultural Production Hotspots"
 
-    - image: /img/portfolio/hotspots/hotspots_map.webp
-      width: 1200
-      height: 900
+    - image: /img/portfolio/asap/hotspots_map.webp
+      width: 1919
+      height: 908
       alt: "Mapa interactivo global con puntos críticos agrícolas"
 
-    - image: /img/portfolio/hotspots/hotspots_indicators.webp
-      width: 1200
-      height: 900
+    - image: /img/portfolio/asap/hotspots_indicators.webp
+      width: 1017
+      height: 908
       alt: "Visualización de indicadores agrícolas clave"
 
   cols: 3

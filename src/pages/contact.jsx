@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <Layouts>
-      <PageBanner pageImage={"img/content/5.jpg"} pageTitle={"Contact"} />
+      <PageBanner pageImage={"img/content/servicios-web-consultoria-fuerteventura.webp"} pageTitle={"Contact"} />
 
       {/* contact */}
       <div className="container mil-content-frame mil-appearance mil-p-120-90">

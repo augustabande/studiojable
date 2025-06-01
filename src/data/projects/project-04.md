@@ -1,6 +1,6 @@
 ---
 #preview
-title: byChloe.it
+title: bychloe.it
 image: /img/portfolio/bychloe/bychloe_all_devices_1.webp # Sostituire con la hero image del sito
 imageWidth: 1200
 imageHeight: 900
@@ -10,7 +10,7 @@ category:
 #full details
 details:
   - label: "Cliente"
-    value: "byChloe"
+    value: "bychloe"
 
   - label: "Fecha"
     value: "2024"
@@ -28,18 +28,18 @@ gallery:
   enabled: 1
   items:
     - image: /img/portfolio/bychloe/post-de-blog.jpg
-      width: 1200
-      height: 900
+      width: 1276
+      height: 908
       alt: "Vista de un post del blog byChloe.it"
 
     - image: /img/portfolio/bychloe/bychloeit.jpg
-      width: 1200
-      height: 900
+      width: 832
+      height: 909
       alt: "Diseño responsive para móviles"
 
     - image: /img/portfolio/bychloe/bychloehome.jpg
-      width: 1200
-      height: 900
+      width: 822
+      height: 895
       alt: "Página principal con estructura clara y atractiva"
 
   cols: 3

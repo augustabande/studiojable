@@ -44,7 +44,7 @@ const About = ( props ) => {
 
   return (
     <Layouts>
-      <PageBanner pageImage={"/img/content/2.jpg"} pageTitle={"About"} />
+      <PageBanner pageImage={"/img/content/augusta-bande-consultora-informatica-canarias.webp"} pageTitle={"About"} />
       
       {/* about */}
       <div className="container mil-content-frame mil-appearance mil-p-120-90">

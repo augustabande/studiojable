@@ -28,18 +28,18 @@ gallery:
     enabled: 1
     items:
         - image: /img/portfolio/enjoytrulli/enjoytrulli_vertical1.webp
-          width: 1200
-          height: 900
+          width: 697
+          height: 734
           alt: "Vista principal de la web Enjoy Trulli"
 
         - image: /img/portfolio/enjoytrulli/enjoytrulli_vertical2.webp
-          width: 1200
-          height: 900
+          width: 1166
+          height: 901
           alt: "Diseño responsive para móviles"
 
         - image: /img/portfolio/enjoytrulli/enjoytrulli_vertical4.webp
-          width: 1200
-          height: 900
+          width: 467
+          height: 797
           alt: "Sistema de reservas integrado"
 
     cols: 3
