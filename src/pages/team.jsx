@@ -2,6 +2,8 @@ import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
 
 import CallToActionSection from "@components/sections/CallToAction";
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
 
 const Team = () => {
   const seo = seoData.team;
@@ -51,7 +53,7 @@ const Team = () => {
 
   return (
     <Layouts>
-      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
       <PageBanner pageImage={"img/content/3.jpg"} pageTitle={"Team"} />
 
       {/* team */}

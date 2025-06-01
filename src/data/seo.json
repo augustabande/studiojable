@@ -2,81 +2,97 @@
   "home": {
     "title": "Diseño web profesional | Soluciones digitales para empresas y autónomos",
     "description": "Diseño web profesional para empresas y autónomos. En Studio Jable creamos páginas web personalizadas, con estrategia digital y diseño de alto impacto para destacar en internet.",
-    "keywords": "diseño web profesional, diseñador web profesional, diseño web empresas, diseño de páginas web, estrategia de marketing digital, diseño personalizado, página web profesional, soluciones digitales, agencia web"
+    "keywords": "diseño web profesional, diseñador web profesional, diseño web empresas, diseño de páginas web, estrategia de marketing digital, diseño personalizado, página web profesional, soluciones digitales, agencia web",
+    "noindex": false
   },
   "servicios": {
     "title": "Servicios de desarrollo web y estrategia digital | Studio Jable",
     "description": "Te ayudo a construir una presencia online efectiva con servicios personalizados de diseño web y consultoría digital.",
-    "keywords": "consultoría digital, desarrollo web a medida, estrategia digital, diseño personalizado"
+    "keywords": "consultoría digital, desarrollo web a medida, estrategia digital, diseño personalizado",
+    "noindex": false
   },
   "services/diseno-web": {
     "title": "Desarrollo web a medida para empresas y autónomos | Studio Jable",
     "description": "Ofrecemos desarrollo web a medida para entornos cliente con diseño personalizado y soluciones adaptadas a tu negocio. Como desarrollador de páginas web, creamos sitios funcionales, claros y enfocados a tus objetivos.",
-    "keywords": "desarrollo web a medida, desarrollo web en entorno cliente, desarrollador de paginas web, diseño personalizado, diseño de páginas web"
+    "keywords": "desarrollo web a medida, desarrollo web en entorno cliente, desarrollador de paginas web, diseño personalizado, diseño de páginas web",
+    "noindex": false
   },
   "services/asesoria-digital": {
     "title": "Consultora de posicionamiento web para empresas | Studio Jable",
     "description": "Impulsa tu visibilidad online con nuestra consultora de posicionamiento web. Estrategias a medida para captar clientes potenciales y crecer tu negocio.",
-    "keywords": "consultora de posicionamiento web, estrategia de marketing digital, clientes potenciales, consultor web, consultor posicionamiento web"
+    "keywords": "consultora de posicionamiento web, estrategia de marketing digital, clientes potenciales, consultor web, consultor posicionamiento web",
+    "noindex": false
   },
   "services/consultoria-bloggers": {
-  "title": "Consultoría digital para bloggers y creadores de contenido | Studio Jable",
-  "description": "Impulsa tu blog con una estrategia digital pensada para crecer. Desde la estructura web hasta el contenido optimizado, te ayudo a destacar como creador o blogger profesional.",
-  "keywords": "consultoría digital bloggers, estrategia de contenidos, optimización blog, estructura blog profesional, visibilidad online creadores"
-},
+    "title": "Consultoría digital para bloggers y creadores de contenido | Studio Jable",
+    "description": "Impulsa tu blog con una estrategia digital pensada para crecer. Desde la estructura web hasta el contenido optimizado, te ayudo a destacar como creador o blogger profesional.",
+    "keywords": "consultoría digital bloggers, estrategia de contenidos, optimización blog, estructura blog profesional, visibilidad online creadores",
+    "noindex": false
+  },
 "services/consultoria-seo": {
-  "title": "Consultoría SEO para mejorar tu posicionamiento en Google | Studio Jable",
-  "description": "Auditoría, estrategia y acciones SEO para ayudarte a escalar posiciones en Google. Soluciones adaptadas a tu sector y objetivos de negocio.",
-  "keywords": "consultoría SEO, estrategia SEO personalizada, posicionamiento web, auditoría SEO, visibilidad en buscadores"
-},
+    "title": "Consultoría SEO para mejorar tu posicionamiento en Google | Studio Jable",
+    "description": "Auditoría, estrategia y acciones SEO para ayudarte a escalar posiciones en Google. Soluciones adaptadas a tu sector y objetivos de negocio.",
+    "keywords": "consultoría SEO, estrategia SEO personalizada, posicionamiento web, auditoría SEO, visibilidad en buscadores",
+    "noindex": false
+  },
 "services/kit-digital": {
-  "title": "Diseño web Kit Digital para empresas y autónomos | Studio Jable",
-  "description": "Solicita tu bono del Kit Digital y accede a una web profesional subvencionada. Diseños adaptados a tu negocio para mejorar tu presencia online.",
-  "keywords": "diseño web kit digital, ayudas kit digital, presencia online, digitalización empresas, página web subvencionada"
-},
+    "title": "Diseño web Kit Digital para empresas y autónomos | Studio Jable",
+    "description": "Solicita tu bono del Kit Digital y accede a una web profesional subvencionada. Diseños adaptados a tu negocio para mejorar tu presencia online.",
+    "keywords": "diseño web kit digital, ayudas kit digital, presencia online, digitalización empresas, página web subvencionada",
+    "noindex": false
+  },
   "kitdigital": {
     "title": "Diseño web Kit Digital para pymes y autónomos | Studio Jable",
     "description": "Solicita tu bono del Kit Digital y accede a una web profesional incluida en el programa de ayudas. Ofrezco diseño web personalizado para digitalizar tu negocio y mejorar tu presencia online.",
-    "keywords": "diseño web kit digital, ayudas kit digital, digitalización pymes, bono digital autónomos, creación página web, soluciones sitio web, presencia online"
+    "keywords": "diseño web kit digital, ayudas kit digital, digitalización pymes, bono digital autónomos, creación página web, soluciones sitio web, presencia online",
+    "noindex": false
   },
     "portfolio": {
     "title": "Ejemplos de diseño personalizado y páginas web profesionales | Studio Jable",
     "description": "Descubre proyectos reales de diseño de páginas web creados con estrategia de marketing digital. Cada sitio es único, orientado a captar clientes potenciales y transmitir una imagen profesional online.",
-    "keywords": "diseño de páginas web, estrategia de marketing digital, diseño personalizado, página web profesional, clientes potenciales"
+    "keywords": "diseño de páginas web, estrategia de marketing digital, diseño personalizado, página web profesional, clientes potenciales",
+    "noindex": false
   },
   "about": {
     "title": "Acerca de Studio Jable | Diseño web profesional para empresas y autónomos",
     "description": "Conoce a Studio Jable, un agencia web con experiencia en diseño de páginas web, estrategia de marketing digital y soluciones digitales para empresas y autónomos.",
-    "keywords": "acerca de studio jable, diseño web profesional, estrategia de marketing digital, soluciones digitales, agencia web"
+    "keywords": "acerca de studio jable, diseño web profesional, estrategia de marketing digital, soluciones digitales, agencia web",
+    "noindex": false
   },
   "blog": {
     "title": "Blog de diseño web | Artículos de diseño web y estrategia digital",
     "description": "Explora artículos sobre diseño web, estrategia de marketing digital y soluciones digitales. Encuentra consejos y tutoriales para mejorar tu presencia online.",
-    "keywords": "blog de diseño web, artículos de diseño web, estrategia de marketing digital, soluciones digitales, tutoriales de diseño web"
+    "keywords": "blog de diseño web, artículos de diseño web, estrategia de marketing digital, soluciones digitales, tutoriales de diseño web",
+    "noindex": false
   },
   "contact": {
     "title": "Contacta con Studio Jable | Presupuesto diseño web",
     "description": "Solicita tu propuesta sin compromiso y empieza tu transformación digital con una web que funcione.",
-    "keywords": "contacto diseño web, presupuesto página web, agencia digital"
+    "keywords": "contacto diseño web, presupuesto página web, agencia digital",
+    "noindex": false
   },
   "cookie-policy": {
     "title": "Política de cookies | Studio Jable",
     "description": "Descubre cómo usamos las cookies para mejorar tu experiencia en nuestro sitio. Consulta tu configuración o retira el consentimiento en cualquier momento.",
-    "keywords": "cookies, política de cookies, uso de cookies, consentimiento cookies"
+    "keywords": "cookies, política de cookies, uso de cookies, consentimiento cookies",
+    "noindex": true
   },
   "terminos-y-condiciones": {
     "title": "Términos y condiciones de uso | Studio Jable",
     "description": "Consulta las condiciones legales para el uso de este sitio web, los servicios ofrecidos y los derechos del usuario.",
-    "keywords": "términos y condiciones, condiciones de uso, aviso legal, uso del sitio web"
+    "keywords": "términos y condiciones, condiciones de uso, aviso legal, uso del sitio web",
+    "noindex": true
   },
   "privacy-policy": {
-  "title": "Política de privacidad | Studio Jable",
-  "description": "Lee cómo protegemos tus datos personales y cumplimos con el Reglamento General de Protección de Datos (RGPD).",
-  "keywords": "política de privacidad, protección de datos, privacidad web, RGPD"
-},
-"accessibility": {
-  "title": "Declaración de accesibilidad | Studio Jable",
-  "description": "Comprometidos con una experiencia web accesible para todos los usuarios, conforme a la normativa vigente.",
-  "keywords": "accesibilidad web, declaración de accesibilidad, sitio accesible, inclusión digital"
-}
+    "title": "Política de privacidad | Studio Jable",
+    "description": "Lee cómo protegemos tus datos personales y cumplimos con el Reglamento General de Protección de Datos (RGPD).",
+    "keywords": "política de privacidad, protección de datos, privacidad web, RGPD",
+    "noindex": true
+  },
+  "accessibility": {
+    "title": "Declaración de accesibilidad | Studio Jable",
+    "description": "Comprometidos con una experiencia web accesible para todos los usuarios, conforme a la normativa vigente.",
+    "keywords": "accesibilidad web, declaración de accesibilidad, sitio accesible, inclusión digital",
+    "noindex": true
+  }
 }

@@ -17,7 +17,12 @@ import Seo from "@components/Seo";
 import seoData from "@data/seo.json";
 
 const PortfolioTwo = (props) => {
-  const seo = seoData.portfolio;
+  const seo = seoData.portfolio || {
+    title: "Portfolio | Studio Jable",
+    description: "Proyectos de diseño web y desarrollo digital",
+    keywords: "portfolio, proyectos, diseño web",
+    noindex: false
+  };
 
   const rows = [];
   const projectsGrid = [];
@@ -51,7 +56,7 @@ const PortfolioTwo = (props) => {
 
   return (
     <Layouts>
-      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
       <PageBanner pageImage={"/img/content/desarrollo-web-Fuerteventura.webp"} pageTitle={"Portfolio"} />
 
       {/* portfolio */}

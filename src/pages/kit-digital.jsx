@@ -141,7 +141,7 @@ const Kitdigital = ( props ) => {
 
   return (
     <Layouts>
-      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
       <PageBanner pageImage={"/img/content/desarrollo-web-fuerteventura-consultor.webp"} pageTitle={"Kit Digital"} />
       
       {/* about */}

@@ -4,13 +4,15 @@ import Layouts from "@layouts/Layouts";
 
 import { getSortedProjectsData } from "@library/projects";
 
-import 'photoswipe/dist/photoswipe.css'
-import 'react-modal-video/css/modal-video.css'
+import 'photoswipe/dist/photoswipe.css';
+import 'react-modal-video/css/modal-video.css';
 
-import { Gallery, Item } from 'react-photoswipe-gallery'
-import ModalVideo from 'react-modal-video'
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import ModalVideo from 'react-modal-video';
 
 import Link from "next/link";
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
 
 const Portfolio = (props) => {
 
@@ -40,7 +42,7 @@ const Portfolio = (props) => {
   const seo = seoData.portfolio;
   return (
     <Layouts>
-      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
       
       <div className="mil-spacer-100 mil-spacer-dark" />
 

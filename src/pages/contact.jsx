@@ -2,6 +2,8 @@ import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
 import { Formik } from 'formik';
 import appData from "@data/app.json";
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
 
 const Contact = () => {
 const seo = seoData.contact;
@@ -24,7 +26,7 @@ const seo = seoData.contact;
 
   return (
     <Layouts>
-        <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
+        <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
       <PageBanner pageImage={"/img/content/servicios-web-consultoria-fuerteventura.webp"} pageTitle={"Contact"} />
 
       {/* contact */}

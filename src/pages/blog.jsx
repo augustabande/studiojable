@@ -6,6 +6,8 @@ import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
 
 import { getPaginatedPostsData } from "../lib/posts";
+import Seo from "@components/Seo";
+import seoData from "@data/seo.json";
 
 export const Content = {
   "subtitle": "Blog y Noticias",
@@ -17,7 +19,7 @@ const Blog = ( { posts, totalPosts, currentPage } ) => {
   const seo = seoData.blog;
   return (
     <Layouts>
-      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
+      <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
       <PageBanner pageImage={"img/content/11.jpg"} pageTitle={"Blog"} />
 
       <div className="mil-spacer" />

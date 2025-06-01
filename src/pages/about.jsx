@@ -8,7 +8,7 @@ import LatestPostsSection from "../components/sections/LatestPosts";
 import CallToActionSection from "../components/sections/CallToAction";
 import CountersSection from "../components/sections/Counters";
 import TechnologiesSection from "../components/sections/Technologies";
-import Seo from "@components/Seo";
+import Seo from "@components/Seo"
 import seoData from "@data/seo.json";
 
 import Link from "next/link";
@@ -47,7 +47,7 @@ const About = ( props ) => {
 
   return (
     <Layouts>
-       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
+       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
       <PageBanner pageImage={"/img/content/augusta-bande-consultora-informatica-canarias.webp"} pageTitle={"About"} />
       
       {/* about */}

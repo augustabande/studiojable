@@ -67,7 +67,7 @@ const About2 = ( props ) => {
 
   return (
     <Layouts>
-       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} />
+       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
       <PageBanner pageImage={"img/content/2.jpg"} pageTitle={"About 2"} />
       
       {/* about */}
