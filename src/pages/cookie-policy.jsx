@@ -4,7 +4,7 @@ import PageBanner from "@/src/components/PageBanner";
 const CookiePolicy = () => {
   return (
     <Layouts>
-      <PageBanner pageImage={"img/content/5.jpg"} pageTitle={"Cookie Policy"} />
+      <PageBanner pageImage={"/img/content/servicios-web-consultoria-fuerteventura.webp"} pageTitle={"Cookie Policy"} />
 
       <div className="container mil-content-frame mil-appearance mil-p-120-90">
         <style>
@@ -35,39 +35,35 @@ const CookiePolicy = () => {
         </style>
 
         <div className="cookie-policy-container">
-          <h1 className="cookie-policy-h1">Cookie Policy</h1>
-          <p>Effective Date: 25-May-2025 <br /> Last Updated: 25-May-2025</p>
+          <h1 className="cookie-policy-h1">Política de Cookies</h1>
+            <p>Fecha de entrada en vigor: 25-mayo-2025 <br /> Última actualización: 25-mayo-2025</p>
 
-          <h5>What are cookies?</h5>
-          <div className="cookie-policy-p">
-            <p>This Cookie Policy explains what cookies are and how we use them, the types of cookies we use i.e, the information we collect using cookies and how that information is used, and how to manage the cookie settings.</p>
-            <p>Cookies are small text files that are used to store small pieces of information. They are stored on your device when the website is loaded on your browser. These cookies help us make the website function properly, make it more secure, provide better user experience, and understand how the website performs and to analyze what works and where it needs improvement.</p>
-          </div>
+            <h5>¿Qué son las cookies?</h5>
+            <div className="cookie-policy-p">
+              <p>Esta Política de Cookies explica qué son las cookies y cómo las utilizamos, los tipos de cookies que usamos, es decir, la información que recopilamos mediante cookies y cómo se utiliza esa información, y cómo gestionar la configuración de cookies.</p>
+              <p>Las cookies son pequeños archivos de texto que se utilizan para almacenar pequeñas cantidades de información. Se almacenan en tu dispositivo cuando el sitio web se carga en tu navegador. Estas cookies nos ayudan a que el sitio funcione correctamente, sea más seguro, brinde una mejor experiencia de usuario y nos permita entender cómo funciona el sitio web y analizar qué funciona y qué necesita mejorar.</p>
+            </div>
 
-          <h5>How do we use cookies?</h5>
-          <div className="cookie-policy-p">
-            <p>As most of the online services, our website uses first-party and third-party cookies for several purposes. First-party cookies are mostly necessary for the website to function the right way, and they do not collect any of your personally identifiable data.</p>
-            <p>The third-party cookies used on our website are mainly for understanding how the website performs, how you interact with our website, keeping our services secure, providing advertisements that are relevant to you, and all in all providing you with a better and improved user experience and help speed up your future interactions with our website.</p>
-          </div>
+            <h5>¿Cómo usamos las cookies?</h5>
+            <div className="cookie-policy-p">
+              <p>Como la mayoría de los servicios en línea, nuestro sitio web utiliza cookies propias y de terceros para varios fines. Las cookies propias son principalmente necesarias para que el sitio web funcione correctamente y no recopilan ninguno de tus datos personales identificables.</p>
+              <p>Las cookies de terceros utilizadas en nuestro sitio web son principalmente para comprender cómo funciona el sitio, cómo interactúas con él, mantener nuestros servicios seguros, ofrecer anuncios relevantes para ti y, en general, brindarte una mejor experiencia de usuario y ayudarte a acelerar tus futuras interacciones con nuestro sitio.</p>
+            </div>
 
-          <h5>Types of Cookies we use</h5>
-          <div className="cky-audit-table-element"></div>
+            <h5>Tipos de cookies que utilizamos</h5>
+            <div className="cky-audit-table-element"></div>
 
-          <h5>Manage cookie preferences</h5>
-          <a className="cky-banner-element">Cookie Settings</a>
-          <div className="cookie-policy-p">
-            <p>You can change your cookie preferences any time by clicking the above button. This will let you revisit the cookie consent banner and change your preferences or withdraw your consent right away.</p>
-            <p>In addition to this, different browsers provide different methods to block and delete cookies used by websites. You can change the settings of your browser to block/delete the cookies. Listed below are the links to the support documents on how to manage and delete cookies from the major web browsers.</p>
-            <p>Chrome: <a target="_blank" href="https://support.google.com/accounts/answer/32050">support.google.com/accounts/answer/32050</a></p>
-            <p>Safari: <a target="_blank" href="https://support.apple.com/en-in/guide/safari/sfri11471/mac">support.apple.com/en-in/guide/safari</a></p>
-            <p>Firefox: <a target="_blank" href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox">support.mozilla.org/kb/clear-cookies-and-site-data-firefox</a></p>
-            <p>Internet Explorer: <a target="_blank" href="https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc">support.microsoft.com/how-to-delete-cookie-files</a></p>
-            <p>If you are using any other web browser, please visit your browser’s official support documents.</p>
-          </div>
-
-          <p className="cookie-policy-p">
-            Cookie Policy Generated By <a target="_blank" href="https://www.cookieyes.com/?utm_source=CP&utm_medium=footer&utm_campaign=UW">CookieYes - Cookie Policy Generator</a>.
-          </p>
+            <h5>Gestionar preferencias de cookies</h5>
+            <a className="cky-banner-element">Configuración de Cookies</a>
+            <div className="cookie-policy-p">
+              <p>Puedes cambiar tus preferencias de cookies en cualquier momento haciendo clic en el botón anterior. Esto te permitirá volver a ver el banner de consentimiento de cookies y modificar tus preferencias o retirar tu consentimiento de inmediato.</p>
+              <p>Además, diferentes navegadores ofrecen diferentes métodos para bloquear y eliminar las cookies utilizadas por los sitios web. Puedes cambiar la configuración de tu navegador para bloquear/eliminar las cookies. A continuación, se enumeran los enlaces a los documentos de soporte sobre cómo gestionar y eliminar cookies en los principales navegadores web.</p>
+              <p>Chrome: <a target="_blank" href="https://support.google.com/accounts/answer/32050">support.google.com/accounts/answer/32050</a></p>
+              <p>Safari: <a target="_blank" href="https://support.apple.com/en-in/guide/safari/sfri11471/mac">support.apple.com/en-in/guide/safari</a></p>
+              <p>Firefox: <a target="_blank" href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox">support.mozilla.org/kb/clear-cookies-and-site-data-firefox</a></p>
+              <p>Internet Explorer: <a target="_blank" href="https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc">support.microsoft.com/how-to-delete-cookie-files</a></p>
+              <p>Si utilizas otro navegador web, visita los documentos oficiales de soporte de tu navegador.</p>
+            </div>
         </div>
       </div>
     </Layouts>
