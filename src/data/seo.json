@@ -71,19 +71,19 @@
     "keywords": "contacto diseño web, presupuesto página web, agencia digital",
     "noindex": false
   },
-  "cookie-policy": {
+  "cookiepolicy": {
     "title": "Política de cookies | Studio Jable",
     "description": "Descubre cómo usamos las cookies para mejorar tu experiencia en nuestro sitio. Consulta tu configuración o retira el consentimiento en cualquier momento.",
     "keywords": "cookies, política de cookies, uso de cookies, consentimiento cookies",
     "noindex": true
   },
-  "terminos-y-condiciones": {
+  "terminosycondiciones": {
     "title": "Términos y condiciones de uso | Studio Jable",
     "description": "Consulta las condiciones legales para el uso de este sitio web, los servicios ofrecidos y los derechos del usuario.",
     "keywords": "términos y condiciones, condiciones de uso, aviso legal, uso del sitio web",
     "noindex": true
   },
-  "privacy-policy": {
+  "privacypolicy": {
     "title": "Política de privacidad | Studio Jable",
     "description": "Lee cómo protegemos tus datos personales y cumplimos con el Reglamento General de Protección de Datos (RGPD).",
     "keywords": "política de privacidad, protección de datos, privacidad web, RGPD",

@@ -4,7 +4,7 @@ import Seo from "@components/Seo";
 import seoData from "@data/seo.json";
 
 const TerminosYCondiciones = () => {
-  const seo = seoData.terminos-y-condiciones;
+  const seo = seoData.terminosycondiciones;
   return (
     <Layouts>
       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />

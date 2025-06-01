@@ -4,7 +4,7 @@ import Seo from "@components/Seo";
 import seoData from "@data/seo.json";
 
 const CookiePolicy = () => {
-  const seo = seoData.cookie-policy;
+  const seo = seoData.cookiepolicy;
   return (
     <Layouts>
       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />

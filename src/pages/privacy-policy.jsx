@@ -4,7 +4,7 @@ import Seo from "@components/Seo";
 import seoData from "@data/seo.json";
 
 const PrivacyPolicy = () => {
-  const seo = seoData.privacy-policy;
+  const seo = seoData.privacypolicy;
   return (
     <Layouts>
       <Seo title={seo.title} description={seo.description} keywords={seo.keywords} noindex={seo.noindex} />
