@@ -10,30 +10,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           {/* meta end */}
 
-           {/* preload CSS non-critici per evitare render blocking */}
-          <link
-            rel="preload"
-            href="/css/plugins/bootstrap-grid.css"
-            as="style"
-            onLoad="this.onload=null;this.rel='stylesheet'"
-          />
-          <link
-            rel="preload"
-            href="/css/plugins/font-awesome.min.css"
-            as="style"
-            onLoad="this.onload=null;this.rel='stylesheet'"
-          />
-          <link
-            rel="preload"
-            href="/css/plugins/swiper.min.css"
-            as="style"
-            onLoad="this.onload=null;this.rel='stylesheet'"
-          />
-          <noscript>
-            <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css" />
-            <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" />
-            <link rel="stylesheet" href="/css/plugins/swiper.min.css" />
-          </noscript>
+          {/* public assets begin */}
+          <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css" />
+          <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" />
+          <link rel="stylesheet" href="/css/plugins/swiper.min.css" />  
+          {/* public assets end */}
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
