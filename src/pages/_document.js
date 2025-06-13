@@ -10,11 +10,20 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
           {/* meta end */}
 
-          {/* public assets begin */}
+           {/* CSS critici → caricali normalmente */}
           <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css" />
           <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" />
-          <link rel="stylesheet" href="/css/plugins/swiper.min.css" />  
-          {/* public assets end */}
+
+          {/* CSS non critico → preload */}
+          <link
+            rel="preload"
+            href="/css/plugins/swiper.min.css"
+            as="style"
+            onLoad="this.onload=null;this.rel='stylesheet'"
+          />
+          <noscript>
+            <link rel="stylesheet" href="/css/plugins/swiper.min.css" />
+          </noscript>
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
