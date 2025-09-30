@@ -1,4 +1,4 @@
-# Augusta Bande – StudioJable (Next.js)
+# StudioJable (Next.js)
 
 **StudioJable** is my latest personal project, a modern **Next.js 13** web application designed to experiment with dynamic content, animations, and image galleries.  
 It combines performance, accessibility, and clean architecture, making it a solid example of my approach to building **scalable and user-friendly applications**.
@@ -61,4 +61,5 @@ It combines performance, accessibility, and clean architecture, making it a soli
 Developed by Augusta Bande
 LinkedIn https://www.linkedin.com/in/augustabande/
 Portfolio Website https://studiojable.com/
+
 
